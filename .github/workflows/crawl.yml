@@ -1,0 +1,74 @@
+name: Daily News Crawl
+
+on:
+  # Run daily at 6 AM UTC
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to main (for testing)
+  push:
+    branches:
+      - main
+    paths:
+      - 'crawlers/**'
+      - '.github/workflows/crawl.yml'
+
+# Permissions needed to push changes
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'crawlers/requirements.txt'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r crawlers/requirements.txt
+
+      - name: Run crawlers
+        run: |
+          cd crawlers
+          python main.py
+        env:
+          PYTHONUNBUFFERED: '1'
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet data/news.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config user.name 'GitHub Actions Bot'
+          git config user.email 'actions@github.com'
+          git add data/news.json
+          git commit -m "Update news data $(date -u +%Y-%m-%d\ %H:%M\ UTC)"
+          git push
+
+      - name: Report status
+        if: always()
+        run: |
+          echo "Crawl job completed"
+          echo "Status: ${{ job.status }}"
+          if [ -f data/news.json ]; then
+            echo "Articles count: $(jq '.totalArticles' data/news.json)"
+          fi

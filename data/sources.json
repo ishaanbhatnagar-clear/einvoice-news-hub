@@ -1,0 +1,233 @@
+{
+  "sources": [
+    {
+      "id": "vatupdate",
+      "name": "VATupdate",
+      "type": "aggregator",
+      "url": "https://www.vatupdate.com",
+      "newsUrl": "https://www.vatupdate.com",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "zatca",
+      "name": "ZATCA",
+      "type": "official",
+      "url": "https://zatca.gov.sa",
+      "newsUrl": "https://zatca.gov.sa/en/MediaCenter/News/Pages/default.aspx",
+      "region": "middle-east",
+      "country": "SA",
+      "reliability": "high"
+    },
+    {
+      "id": "uae-fta",
+      "name": "UAE FTA",
+      "type": "official",
+      "url": "https://tax.gov.ae",
+      "newsUrl": "https://tax.gov.ae/en/announcements.aspx",
+      "region": "middle-east",
+      "country": "AE",
+      "reliability": "high"
+    },
+    {
+      "id": "egypt-eta",
+      "name": "Egypt ETA",
+      "type": "official",
+      "url": "https://invoicing.eta.gov.eg",
+      "newsUrl": "https://invoicing.eta.gov.eg",
+      "region": "middle-east",
+      "country": "EG",
+      "reliability": "high"
+    },
+    {
+      "id": "ey",
+      "name": "EY",
+      "type": "advisory",
+      "url": "https://www.ey.com",
+      "newsUrl": "https://www.ey.com/en_gl/technical/tax-guides/e-invoicing-developments-tracker",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "deloitte",
+      "name": "Deloitte",
+      "type": "advisory",
+      "url": "https://www.deloitte.com",
+      "newsUrl": "https://www.deloitte.com/global/en/services/tax/perspectives.html",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "pwc",
+      "name": "PwC",
+      "type": "advisory",
+      "url": "https://www.pwc.com",
+      "newsUrl": "https://taxsummaries.pwc.com",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "kpmg",
+      "name": "KPMG",
+      "type": "advisory",
+      "url": "https://kpmg.com",
+      "newsUrl": "https://kpmg.com/xx/en/home/insights/2022/01/tax-news-flash.html",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "pagero-atlas",
+      "name": "Pagero Regulatory Atlas",
+      "type": "vendor",
+      "url": "https://www.pagero.com",
+      "newsUrl": "https://www.pagero.com/compliance/regulatory-updates",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "edicom",
+      "name": "EDICOM",
+      "type": "vendor",
+      "url": "https://www.edicomgroup.com",
+      "newsUrl": "https://www.edicomgroup.com/blog",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "sovos",
+      "name": "Sovos",
+      "type": "vendor",
+      "url": "https://sovos.com",
+      "newsUrl": "https://sovos.com/regulatory-updates/",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "vertex",
+      "name": "Vertex",
+      "type": "vendor",
+      "url": "https://www.vertexinc.com",
+      "newsUrl": "https://www.vertexinc.com/resources",
+      "region": "global",
+      "country": null,
+      "reliability": "medium"
+    },
+    {
+      "id": "comarch",
+      "name": "Comarch",
+      "type": "vendor",
+      "url": "https://www.comarch.com",
+      "newsUrl": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "fonoa",
+      "name": "Fonoa",
+      "type": "taxtech",
+      "url": "https://www.fonoa.com",
+      "newsUrl": "https://www.fonoa.com/resources/blog",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "storecove",
+      "name": "Storecove",
+      "type": "taxtech",
+      "url": "https://www.storecove.com",
+      "newsUrl": "https://www.storecove.com/blog",
+      "region": "global",
+      "country": null,
+      "reliability": "medium"
+    },
+    {
+      "id": "avalara",
+      "name": "Avalara",
+      "type": "vendor",
+      "url": "https://www.avalara.com",
+      "newsUrl": "https://www.avalara.com/blog",
+      "region": "global",
+      "country": null,
+      "reliability": "medium"
+    },
+    {
+      "id": "pagero",
+      "name": "Pagero",
+      "type": "vendor",
+      "url": "https://www.pagero.com",
+      "newsUrl": "https://www.pagero.com/newsroom",
+      "region": "global",
+      "country": null,
+      "reliability": "medium"
+    },
+    {
+      "id": "basware",
+      "name": "Basware",
+      "type": "vendor",
+      "url": "https://www.basware.com",
+      "newsUrl": "https://www.basware.com/en/blog",
+      "region": "global",
+      "country": null,
+      "reliability": "medium"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "type": "social",
+      "url": "https://www.linkedin.com",
+      "newsUrl": "https://www.linkedin.com/company/e-invoice-app/posts/",
+      "region": "global",
+      "country": null,
+      "reliability": "medium"
+    },
+    {
+      "id": "bloomberg-tax",
+      "name": "Bloomberg Tax",
+      "type": "news",
+      "url": "https://news.bloombergtax.com",
+      "newsUrl": "https://news.bloombergtax.com/daily-tax-report-international",
+      "region": "global",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "daily-news-egypt",
+      "name": "Daily News Egypt",
+      "type": "news",
+      "url": "https://www.dailynewsegypt.com",
+      "newsUrl": "https://www.dailynewsegypt.com/category/business/",
+      "region": "middle-east",
+      "country": "EG",
+      "reliability": "medium"
+    }
+  ],
+  "sourceTypes": [
+    { "id": "official", "name": "Official/Government", "description": "Government tax authorities" },
+    { "id": "advisory", "name": "Advisory (Big 4)", "description": "Big 4 consulting firms" },
+    { "id": "vendor", "name": "Vendors", "description": "E-invoicing solution providers" },
+    { "id": "taxtech", "name": "TaxTech", "description": "Tax technology companies" },
+    { "id": "aggregator", "name": "News Aggregators", "description": "Tax news aggregation sites" },
+    { "id": "news", "name": "News Outlets", "description": "Business/tax news publications" },
+    { "id": "social", "name": "Social Media", "description": "LinkedIn and social platforms" }
+  ],
+  "categories": [
+    { "id": "mandate", "name": "Mandate", "color": "#DC2626" },
+    { "id": "regulation", "name": "Regulation", "color": "#D97706" },
+    { "id": "partnership", "name": "Partnership", "color": "#059669" },
+    { "id": "product", "name": "Product", "color": "#7C3AED" },
+    { "id": "deadline", "name": "Deadline", "color": "#DC2626" },
+    { "id": "compliance", "name": "Compliance", "color": "#2563EB" },
+    { "id": "expansion", "name": "Expansion", "color": "#0891B2" },
+    { "id": "update", "name": "Update", "color": "#6B7280" }
+  ]
+}

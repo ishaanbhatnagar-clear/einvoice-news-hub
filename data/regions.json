@@ -1,0 +1,72 @@
+{
+  "regions": [
+    {
+      "id": "middle-east",
+      "name": "Middle East",
+      "order": 1,
+      "countries": [
+        { "code": "SA", "name": "Saudi Arabia", "flag": "🇸🇦", "system": "ZATCA Fatoorah" },
+        { "code": "AE", "name": "UAE", "flag": "🇦🇪", "system": "FTA e-Invoicing" },
+        { "code": "EG", "name": "Egypt", "flag": "🇪🇬", "system": "e-Receipt System" },
+        { "code": "BH", "name": "Bahrain", "flag": "🇧🇭", "system": "NBR e-Invoicing" },
+        { "code": "OM", "name": "Oman", "flag": "🇴🇲", "system": "eInvoice Portal" },
+        { "code": "QA", "name": "Qatar", "flag": "🇶🇦", "system": "GTA e-Invoicing" },
+        { "code": "KW", "name": "Kuwait", "flag": "🇰🇼", "system": "MOF e-Invoicing" },
+        { "code": "JO", "name": "Jordan", "flag": "🇯🇴", "system": "ISTD e-Invoicing" }
+      ]
+    },
+    {
+      "id": "europe",
+      "name": "Europe",
+      "order": 2,
+      "countries": [
+        { "code": "EU", "name": "European Union", "flag": "🇪🇺", "system": "ViDA Directive" },
+        { "code": "DE", "name": "Germany", "flag": "🇩🇪", "system": "XRechnung" },
+        { "code": "FR", "name": "France", "flag": "🇫🇷", "system": "Chorus Pro" },
+        { "code": "IT", "name": "Italy", "flag": "🇮🇹", "system": "SDI" },
+        { "code": "ES", "name": "Spain", "flag": "🇪🇸", "system": "SII / TicketBAI" },
+        { "code": "PL", "name": "Poland", "flag": "🇵🇱", "system": "KSeF" },
+        { "code": "BE", "name": "Belgium", "flag": "🇧🇪", "system": "Peppol" },
+        { "code": "NL", "name": "Netherlands", "flag": "🇳🇱", "system": "Peppol" },
+        { "code": "PT", "name": "Portugal", "flag": "🇵🇹", "system": "SAF-T PT" }
+      ]
+    },
+    {
+      "id": "americas",
+      "name": "Americas",
+      "order": 3,
+      "countries": [
+        { "code": "BR", "name": "Brazil", "flag": "🇧🇷", "system": "NF-e / NFS-e" },
+        { "code": "MX", "name": "Mexico", "flag": "🇲🇽", "system": "CFDI 4.0" },
+        { "code": "CL", "name": "Chile", "flag": "🇨🇱", "system": "DTE" },
+        { "code": "CO", "name": "Colombia", "flag": "🇨🇴", "system": "DIAN e-Invoicing" },
+        { "code": "AR", "name": "Argentina", "flag": "🇦🇷", "system": "AFIP e-Factura" },
+        { "code": "US", "name": "United States", "flag": "🇺🇸", "system": "State-level" }
+      ]
+    },
+    {
+      "id": "asia-pacific",
+      "name": "Asia-Pacific",
+      "order": 4,
+      "countries": [
+        { "code": "IN", "name": "India", "flag": "🇮🇳", "system": "GST e-Invoice" },
+        { "code": "AU", "name": "Australia", "flag": "🇦🇺", "system": "Peppol" },
+        { "code": "SG", "name": "Singapore", "flag": "🇸🇬", "system": "InvoiceNow" },
+        { "code": "MY", "name": "Malaysia", "flag": "🇲🇾", "system": "MyInvois" },
+        { "code": "VN", "name": "Vietnam", "flag": "🇻🇳", "system": "e-Invoice" },
+        { "code": "PH", "name": "Philippines", "flag": "🇵🇭", "system": "EIS" },
+        { "code": "CN", "name": "China", "flag": "🇨🇳", "system": "Fapiao" }
+      ]
+    },
+    {
+      "id": "africa",
+      "name": "Africa",
+      "order": 5,
+      "countries": [
+        { "code": "KE", "name": "Kenya", "flag": "🇰🇪", "system": "TIMS" },
+        { "code": "NG", "name": "Nigeria", "flag": "🇳🇬", "system": "FIRS e-Invoice" },
+        { "code": "ZA", "name": "South Africa", "flag": "🇿🇦", "system": "SARS e-Invoicing" }
+      ]
+    }
+  ]
+}
