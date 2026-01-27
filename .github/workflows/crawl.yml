@@ -8,14 +8,6 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
-  # Run on push to main (for testing)
-  push:
-    branches:
-      - main
-    paths:
-      - 'crawlers/**'
-      - '.github/workflows/crawl.yml'
-
 # Permissions needed to push changes
 permissions:
   contents: write
@@ -43,6 +35,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r crawlers/requirements.txt
 
+      - name: Get previous article count
+        id: prev_count
+        run: |
+          if [ -f data/news.json ]; then
+            echo "count=$(jq '.totalArticles' data/news.json)" >> $GITHUB_OUTPUT
+          else
+            echo "count=0" >> $GITHUB_OUTPUT
+          fi
+
       - name: Run crawlers
         run: |
           cd crawlers
@@ -50,18 +51,34 @@ jobs:
         env:
           PYTHONUNBUFFERED: '1'
 
-      - name: Check for changes
-        id: check_changes
+      - name: Update changelog
         run: |
-          git diff --quiet data/news.json || echo "changes=true" >> $GITHUB_OUTPUT
+          PREV_COUNT=${{ steps.prev_count.outputs.count }}
+          NEW_TOTAL=$(jq '.totalArticles' data/news.json)
+          NEW_ARTICLES=$((NEW_TOTAL - PREV_COUNT))
+          if [ $NEW_ARTICLES -lt 0 ]; then NEW_ARTICLES=0; fi
+
+          # Build sources object from news.json
+          SOURCES=$(jq -c '[.articles | group_by(.source.name) | .[] | {(.[0].source.name): length}] | add' data/news.json)
+
+          # Create new changelog entry
+          NEW_ENTRY=$(jq -n \
+            --arg date "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --arg status "success" \
+            --argjson total "$NEW_TOTAL" \
+            --argjson new "$NEW_ARTICLES" \
+            --argjson sources "$SOURCES" \
+            '{date: $date, status: $status, articlesTotal: $total, articlesNew: $new, sources: $sources}')
+
+          # Append to changelog (keep last 30 entries)
+          jq --argjson entry "$NEW_ENTRY" '.runs = (.runs + [$entry]) | .runs = .runs[-30:]' data/changelog.json > tmp.json && mv tmp.json data/changelog.json
 
       - name: Commit and push changes
-        if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config user.name 'GitHub Actions Bot'
           git config user.email 'actions@github.com'
-          git add data/news.json
-          git commit -m "Update news data $(date -u +%Y-%m-%d\ %H:%M\ UTC)"
+          git add data/news.json data/changelog.json
+          git diff --staged --quiet || git commit -m "Update news data $(date -u +%Y-%m-%d\ %H:%M\ UTC)"
           git push
 
       - name: Report status

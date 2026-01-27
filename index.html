@@ -358,7 +358,10 @@
         <div class="max-w-7xl mx-auto px-6 py-6">
             <div class="flex items-center justify-between text-xs text-gray-600">
                 <span>Aggregating e-invoicing intelligence globally</span>
-                <span class="mono">Last sync: <span x-text="formatDate(newsData.lastUpdated)"></span></span>
+                <div class="flex items-center space-x-4">
+                    <a href="changelog.html" class="text-accent-cyan hover:underline">Changelog</a>
+                    <span class="mono">Last sync: <span x-text="formatDate(newsData.lastUpdated)"></span></span>
+                </div>
             </div>
         </div>
     </footer>

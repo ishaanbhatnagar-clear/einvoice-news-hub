@@ -1,0 +1,18 @@
+{
+  "runs": [
+    {
+      "date": "2026-01-27T16:19:42Z",
+      "status": "success",
+      "articlesTotal": 43,
+      "articlesNew": 0,
+      "sources": {
+        "VATupdate": 2,
+        "UAE FTA": 1,
+        "Pagero Atlas": 17,
+        "Comarch": 13,
+        "EDICOM": 2,
+        "Vertex": 4
+      }
+    }
+  ]
+}
