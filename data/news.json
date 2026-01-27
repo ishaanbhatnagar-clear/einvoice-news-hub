@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-27T16:14:01.173576Z",
+  "lastUpdated": "2026-01-27T16:19:43.132620Z",
   "crawlStatus": "success",
   "totalArticles": 44,
   "articles": [
@@ -23,26 +23,6 @@
       "crawledAt": "2026-01-27T15:22:32.815152"
     },
     {
-      "id": "edicom-6e4aee04",
-      "title": "Electronic invoicing in Uruguay, how to issue CFE in compliance with DGI regulations",
-      "summary": "EDICOM Group will use the personal data collected to answer questions/or manage the services requested. You may exercise your rights of access, rectification, opposition, restriction and portability of your data in accordance with the provisions in the Privacy Policy.",
-      "url": "https://www.edicomgroup.com/blog/how-does-e-invoicing-work-in-uruguay",
-      "source": {
-        "id": "edicom",
-        "name": "EDICOM",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "regulation",
-        "compliance"
-      ],
-      "publishedAt": "2026-01-27T16:12:59.413557",
-      "crawledAt": "2026-01-27T16:12:59.413562"
-    },
-    {
       "id": "comarch-2026-01-27-e84ce2e1",
       "title": "27 Oct 2025 Philippines E-Invoicing Mandate Extended: New 2026 Compliance Deadline In a significant development for businesses operating in the Philippines, the Bureau ofInternal Revenue (BIR) has officially extended the timeline for mandatory e-invoicing compliance.",
       "summary": "In a significant development for businesses operating in the Philippines, the Bureau ofInternal Revenue (BIR) has officially extended the timeline for mandatory e-invoicing compliance.",
@@ -59,8 +39,8 @@
         "mandate",
         "deadline"
       ],
-      "publishedAt": "2026-01-27T16:12:59.354593",
-      "crawledAt": "2026-01-27T16:12:59.354775"
+      "publishedAt": "2026-01-27T16:18:40.606059",
+      "crawledAt": "2026-01-27T16:18:40.606248"
     },
     {
       "id": "comarch-2026-01-27-52ab47c4",
@@ -79,8 +59,8 @@
         "product",
         "compliance"
       ],
-      "publishedAt": "2026-01-27T16:12:59.354149",
-      "crawledAt": "2026-01-27T16:12:59.354323"
+      "publishedAt": "2026-01-27T16:18:40.605647",
+      "crawledAt": "2026-01-27T16:18:40.605827"
     },
     {
       "id": "comarch-2026-01-27-b70dc64f",
@@ -98,8 +78,8 @@
       "categories": [
         "mandate"
       ],
-      "publishedAt": "2026-01-27T16:12:59.353719",
-      "crawledAt": "2026-01-27T16:12:59.353912"
+      "publishedAt": "2026-01-27T16:18:40.605199",
+      "crawledAt": "2026-01-27T16:18:40.605407"
     },
     {
       "id": "comarch-2026-01-27-df0fe84c",
@@ -117,8 +97,8 @@
       "categories": [
         "mandate"
       ],
-      "publishedAt": "2026-01-27T16:12:59.353241",
-      "crawledAt": "2026-01-27T16:12:59.353475"
+      "publishedAt": "2026-01-27T16:18:40.604746",
+      "crawledAt": "2026-01-27T16:18:40.604960"
     },
     {
       "id": "comarch-2026-01-27-85ddd147",
@@ -136,8 +116,8 @@
       "categories": [
         "product"
       ],
-      "publishedAt": "2026-01-27T16:12:59.351229",
-      "crawledAt": "2026-01-27T16:12:59.351414"
+      "publishedAt": "2026-01-27T16:18:40.602836",
+      "crawledAt": "2026-01-27T16:18:40.603007"
     },
     {
       "id": "comarch-2026-01-27-ecd988f0",
@@ -156,8 +136,8 @@
         "regulation",
         "update"
       ],
-      "publishedAt": "2026-01-27T16:12:59.350813",
-      "crawledAt": "2026-01-27T16:12:59.350999"
+      "publishedAt": "2026-01-27T16:18:40.602414",
+      "crawledAt": "2026-01-27T16:18:40.602605"
     },
     {
       "id": "comarch-2026-01-27-bb66afc8",
@@ -175,8 +155,8 @@
       "categories": [
         "mandate"
       ],
-      "publishedAt": "2026-01-27T16:12:59.350397",
-      "crawledAt": "2026-01-27T16:12:59.350576"
+      "publishedAt": "2026-01-27T16:18:40.601984",
+      "crawledAt": "2026-01-27T16:18:40.602157"
     },
     {
       "id": "comarch-2026-01-27-c03f88e8",
@@ -195,8 +175,8 @@
         "mandate",
         "product"
       ],
-      "publishedAt": "2026-01-27T16:12:59.348816",
-      "crawledAt": "2026-01-27T16:12:59.348999"
+      "publishedAt": "2026-01-27T16:18:40.600430",
+      "crawledAt": "2026-01-27T16:18:40.600613"
     },
     {
       "id": "comarch-2026-01-27-fb48e88a",
@@ -215,8 +195,8 @@
         "mandate",
         "product"
       ],
-      "publishedAt": "2026-01-27T16:12:59.348351",
-      "crawledAt": "2026-01-27T16:12:59.348576"
+      "publishedAt": "2026-01-27T16:18:40.599952",
+      "crawledAt": "2026-01-27T16:18:40.600171"
     },
     {
       "id": "comarch-2026-01-27-50a99d2c",
@@ -235,8 +215,8 @@
         "mandate",
         "product"
       ],
-      "publishedAt": "2026-01-27T16:12:59.346672",
-      "crawledAt": "2026-01-27T16:12:59.346878"
+      "publishedAt": "2026-01-27T16:18:40.598370",
+      "crawledAt": "2026-01-27T16:18:40.598550"
     },
     {
       "id": "comarch-2026-01-27-ec24af9c",
@@ -254,8 +234,8 @@
       "categories": [
         "mandate"
       ],
-      "publishedAt": "2026-01-27T16:12:59.345793",
-      "crawledAt": "2026-01-27T16:12:59.345975"
+      "publishedAt": "2026-01-27T16:18:40.597938",
+      "crawledAt": "2026-01-27T16:18:40.598117"
     },
     {
       "id": "comarch-2026-01-27-b8353058",
@@ -274,8 +254,8 @@
         "mandate",
         "compliance"
       ],
-      "publishedAt": "2026-01-27T16:12:59.344577",
-      "crawledAt": "2026-01-27T16:12:59.344756"
+      "publishedAt": "2026-01-27T16:18:40.596759",
+      "crawledAt": "2026-01-27T16:18:40.596936"
     },
     {
       "id": "comarch-2026-01-27-5cbf1714",
@@ -294,8 +274,28 @@
         "regulation",
         "product"
       ],
-      "publishedAt": "2026-01-27T16:12:59.343992",
-      "crawledAt": "2026-01-27T16:12:59.344308"
+      "publishedAt": "2026-01-27T16:18:40.596181",
+      "crawledAt": "2026-01-27T16:18:40.596510"
+    },
+    {
+      "id": "edicom-6e4aee04",
+      "title": "Electronic invoicing in Uruguay, how to issue CFE in compliance with DGI regulations",
+      "summary": "EDICOM Group will use the personal data collected to answer questions/or manage the services requested. You may exercise your rights of access, rectification, opposition, restriction and portability of your data in accordance with the provisions in the Privacy Policy.",
+      "url": "https://www.edicomgroup.com/blog/how-does-e-invoicing-work-in-uruguay",
+      "source": {
+        "id": "edicom",
+        "name": "EDICOM",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "regulation",
+        "compliance"
+      ],
+      "publishedAt": "2026-01-27T16:18:40.157398",
+      "crawledAt": "2026-01-27T16:18:40.157403"
     },
     {
       "id": "pagero-atlas-2026-01-27-e3025ef9",
@@ -314,8 +314,8 @@
         "compliance",
         "regulation"
       ],
-      "publishedAt": "2026-01-27T16:12:58.924164",
-      "crawledAt": "2026-01-27T16:12:58.924174"
+      "publishedAt": "2026-01-27T16:18:39.247310",
+      "crawledAt": "2026-01-27T16:18:39.247317"
     },
     {
       "id": "pagero-atlas-2026-01-27-8089a826",
@@ -334,8 +334,8 @@
         "compliance",
         "regulation"
       ],
-      "publishedAt": "2026-01-27T16:11:58.558807",
-      "crawledAt": "2026-01-27T16:11:58.558815"
+      "publishedAt": "2026-01-27T16:17:39.535508",
+      "crawledAt": "2026-01-27T16:17:39.535514"
     },
     {
       "id": "vertex-2026-01-27-9fdc1b45",
@@ -353,8 +353,8 @@
       "categories": [
         "compliance"
       ],
-      "publishedAt": "2026-01-27T16:11:58.217592",
-      "crawledAt": "2026-01-27T16:11:58.217801"
+      "publishedAt": "2026-01-27T16:17:39.202100",
+      "crawledAt": "2026-01-27T16:17:39.202232"
     },
     {
       "id": "vertex-2026-01-27-f79743a9",
@@ -372,8 +372,8 @@
       "categories": [
         "compliance"
       ],
-      "publishedAt": "2026-01-27T16:11:58.216761",
-      "crawledAt": "2026-01-27T16:11:58.217066"
+      "publishedAt": "2026-01-27T16:17:39.201597",
+      "crawledAt": "2026-01-27T16:17:39.201785"
     },
     {
       "id": "vertex-2026-01-27-9b77e131",
@@ -391,8 +391,8 @@
       "categories": [
         "mandate"
       ],
-      "publishedAt": "2026-01-27T16:11:58.215046",
-      "crawledAt": "2026-01-27T16:11:58.215249"
+      "publishedAt": "2026-01-27T16:17:39.200563",
+      "crawledAt": "2026-01-27T16:17:39.200713"
     },
     {
       "id": "vertex-2026-01-27-efd426cd",
@@ -410,8 +410,8 @@
       "categories": [
         "compliance"
       ],
-      "publishedAt": "2026-01-27T16:11:58.213926",
-      "crawledAt": "2026-01-27T16:11:58.214504"
+      "publishedAt": "2026-01-27T16:17:39.199848",
+      "crawledAt": "2026-01-27T16:17:39.200148"
     },
     {
       "id": "uae-fta-2026-01-27-56ce4870",
@@ -429,8 +429,8 @@
       "categories": [
         "deadline"
       ],
-      "publishedAt": "2026-01-27T16:11:00.870150",
-      "crawledAt": "2026-01-27T16:11:00.870258"
+      "publishedAt": "2026-01-27T16:16:41.858364",
+      "crawledAt": "2026-01-27T16:16:41.858498"
     },
     {
       "id": "pagero-atlas-2026-01-27-a2fdd17c",
@@ -449,8 +449,8 @@
         "compliance",
         "regulation"
       ],
-      "publishedAt": "2026-01-27T16:11:00.062079",
-      "crawledAt": "2026-01-27T16:11:00.062086"
+      "publishedAt": "2026-01-27T16:16:40.468884",
+      "crawledAt": "2026-01-27T16:16:40.468892"
     },
     {
       "id": "pagero-atlas-2026-01-27-4533a48d",
