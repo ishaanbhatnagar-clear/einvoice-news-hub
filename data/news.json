@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-01-28T06:31:34.855027Z",
+  "lastUpdated": "2026-01-28T10:31:40.513596Z",
   "crawlStatus": "success",
-  "totalArticles": 31,
+  "totalArticles": 37,
   "articles": [
     {
       "id": "edicom-2026-12-01-5df1114f",
@@ -23,6 +23,69 @@
       "crawledAt": "2026-01-27T15:22:32.815152"
     },
     {
+      "id": "pagero-atlas-2026-01-28-4533a48d",
+      "title": "Regulatory updates - Greece",
+      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. The Independent Authority for Public Revenue (AADE) has announced a five-month postponement for the mandatory implementation of Phase B.",
+      "url": "https://www.pagero.com/compliance/regulatory-updates/greece",
+      "source": {
+        "id": "pagero-atlas",
+        "name": "Pagero Regulatory Atlas",
+        "type": "vendor"
+      },
+      "region": "europe",
+      "country": "GR",
+      "countryName": "Greece",
+      "categories": [
+        "compliance",
+        "regulation",
+        "deadline"
+      ],
+      "publishedAt": "2026-01-28T10:30:44.572171",
+      "crawledAt": "2026-01-28T10:30:44.572176"
+    },
+    {
+      "id": "pagero-atlas-2026-01-28-c561c4e3",
+      "title": "Regulatory updates - Poland",
+      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. In preparation for the KSeF 2.0 system implementation, the Polish Tax Authority has planned a technical maintenance break from January 26, 2026, to January 31, 2026.",
+      "url": "https://www.pagero.com/compliance/regulatory-updates/poland",
+      "source": {
+        "id": "pagero-atlas",
+        "name": "Pagero Regulatory Atlas",
+        "type": "vendor"
+      },
+      "region": "europe",
+      "country": "PL",
+      "countryName": "Poland",
+      "categories": [
+        "compliance",
+        "regulation",
+        "deadline"
+      ],
+      "publishedAt": "2026-01-28T10:30:43.298231",
+      "crawledAt": "2026-01-28T10:30:43.298237"
+    },
+    {
+      "id": "pagero-atlas-2026-01-28-a83059de",
+      "title": "Regulatory updates - Italy",
+      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. From January 1, 2026, Italy has strengthened VAT enforcement for omitted annual VAT returns by enabling automated calculations using data already transmitted through the e-invoicing and ",
+      "url": "https://www.pagero.com/compliance/regulatory-updates/italy",
+      "source": {
+        "id": "pagero-atlas",
+        "name": "Pagero Regulatory Atlas",
+        "type": "vendor"
+      },
+      "region": "europe",
+      "country": "IT",
+      "countryName": "Italy",
+      "categories": [
+        "compliance",
+        "regulation",
+        "deadline"
+      ],
+      "publishedAt": "2026-01-28T10:30:42.377836",
+      "crawledAt": "2026-01-28T10:30:42.377841"
+    },
+    {
       "id": "comarch-2026-01-28-e84ce2e1",
       "title": "27 Oct 2025 Philippines E-Invoicing Mandate Extended: New 2026 Compliance Deadline In a significant development for businesses operating in the Philippines, the Bureau ofInternal Revenue (BIR) has officially extended the timeline for mandatory e-invoicing compliance.",
       "summary": "In a significant development for businesses operating in the Philippines, the Bureau ofInternal Revenue (BIR) has officially extended the timeline for mandatory e-invoicing compliance.",
@@ -39,8 +102,8 @@
         "mandate",
         "deadline"
       ],
-      "publishedAt": "2026-01-28T06:30:31.456221",
-      "crawledAt": "2026-01-28T06:30:31.456418"
+      "publishedAt": "2026-01-28T10:29:42.125014",
+      "crawledAt": "2026-01-28T10:29:42.125095"
     },
     {
       "id": "comarch-2026-01-28-52ab47c4",
@@ -59,8 +122,8 @@
         "product",
         "compliance"
       ],
-      "publishedAt": "2026-01-28T06:30:31.455810",
-      "crawledAt": "2026-01-28T06:30:31.455988"
+      "publishedAt": "2026-01-28T10:29:42.124819",
+      "crawledAt": "2026-01-28T10:29:42.124918"
     },
     {
       "id": "comarch-2026-01-28-b70dc64f",
@@ -78,8 +141,8 @@
       "categories": [
         "mandate"
       ],
-      "publishedAt": "2026-01-28T06:30:31.455370",
-      "crawledAt": "2026-01-28T06:30:31.455565"
+      "publishedAt": "2026-01-28T10:29:42.124629",
+      "crawledAt": "2026-01-28T10:29:42.124706"
     },
     {
       "id": "comarch-2026-01-28-df0fe84c",
@@ -97,8 +160,8 @@
       "categories": [
         "mandate"
       ],
-      "publishedAt": "2026-01-28T06:30:31.454900",
-      "crawledAt": "2026-01-28T06:30:31.455120"
+      "publishedAt": "2026-01-28T10:29:42.124440",
+      "crawledAt": "2026-01-28T10:29:42.124545"
     },
     {
       "id": "comarch-2026-01-28-85ddd147",
@@ -116,8 +179,8 @@
       "categories": [
         "product"
       ],
-      "publishedAt": "2026-01-28T06:30:31.452989",
-      "crawledAt": "2026-01-28T06:30:31.453161"
+      "publishedAt": "2026-01-28T10:29:42.123755",
+      "crawledAt": "2026-01-28T10:29:42.123824"
     },
     {
       "id": "comarch-2026-01-28-ecd988f0",
@@ -136,8 +199,8 @@
         "regulation",
         "update"
       ],
-      "publishedAt": "2026-01-28T06:30:31.452572",
-      "crawledAt": "2026-01-28T06:30:31.452757"
+      "publishedAt": "2026-01-28T10:29:42.123591",
+      "crawledAt": "2026-01-28T10:29:42.123672"
     },
     {
       "id": "comarch-2026-01-28-bb66afc8",
@@ -155,8 +218,8 @@
       "categories": [
         "mandate"
       ],
-      "publishedAt": "2026-01-28T06:30:31.452144",
-      "crawledAt": "2026-01-28T06:30:31.452332"
+      "publishedAt": "2026-01-28T10:29:42.123434",
+      "crawledAt": "2026-01-28T10:29:42.123509"
     },
     {
       "id": "comarch-2026-01-28-c03f88e8",
@@ -175,8 +238,8 @@
         "mandate",
         "product"
       ],
-      "publishedAt": "2026-01-28T06:30:31.450548",
-      "crawledAt": "2026-01-28T06:30:31.450732"
+      "publishedAt": "2026-01-28T10:29:42.122853",
+      "crawledAt": "2026-01-28T10:29:42.122936"
     },
     {
       "id": "comarch-2026-01-28-fb48e88a",
@@ -195,8 +258,8 @@
         "mandate",
         "product"
       ],
-      "publishedAt": "2026-01-28T06:30:31.450071",
-      "crawledAt": "2026-01-28T06:30:31.450306"
+      "publishedAt": "2026-01-28T10:29:42.122659",
+      "crawledAt": "2026-01-28T10:29:42.122764"
     },
     {
       "id": "comarch-2026-01-28-50a99d2c",
@@ -215,8 +278,8 @@
         "mandate",
         "product"
       ],
-      "publishedAt": "2026-01-28T06:30:31.448443",
-      "crawledAt": "2026-01-28T06:30:31.448629"
+      "publishedAt": "2026-01-28T10:29:42.121955",
+      "crawledAt": "2026-01-28T10:29:42.122055"
     },
     {
       "id": "comarch-2026-01-28-ec24af9c",
@@ -234,8 +297,8 @@
       "categories": [
         "mandate"
       ],
-      "publishedAt": "2026-01-28T06:30:31.448002",
-      "crawledAt": "2026-01-28T06:30:31.448186"
+      "publishedAt": "2026-01-28T10:29:42.121787",
+      "crawledAt": "2026-01-28T10:29:42.121869"
     },
     {
       "id": "comarch-2026-01-28-b8353058",
@@ -254,8 +317,8 @@
         "mandate",
         "compliance"
       ],
-      "publishedAt": "2026-01-28T06:30:31.446811",
-      "crawledAt": "2026-01-28T06:30:31.446991"
+      "publishedAt": "2026-01-28T10:29:42.121323",
+      "crawledAt": "2026-01-28T10:29:42.121412"
     },
     {
       "id": "comarch-2026-01-28-5cbf1714",
@@ -274,8 +337,28 @@
         "regulation",
         "product"
       ],
-      "publishedAt": "2026-01-28T06:30:31.446238",
-      "crawledAt": "2026-01-28T06:30:31.446562"
+      "publishedAt": "2026-01-28T10:29:42.120994",
+      "crawledAt": "2026-01-28T10:29:42.121214"
+    },
+    {
+      "id": "qatar-gta-2026-01-28-9c723dee",
+      "title": "Latest News",
+      "summary": "The General Tax Authority held the padel tournament with the participation of a number of its employees, along with employees from financial audit firms, on 19 and 20 January 2026. This initiative reflects the Authority’s commitment to enhancing institutional communication and fostering a culture of sports and physical activity in the workplace. The tournament was marked by a positive competitive atmosphere that reflected cooperation and interaction among participants, contributing to stronger professional relationships and the building of effective partnerships in a friendly setting, while supporting the values of collaboration and institutional integration. The winning team was honored in recognition of its outstanding performance and the high competitive standard it demonstrated. This initiative forms part of the General Tax Authority’s efforts to support a motivating work environment and promote positive practices that enhance performance efficiency and reinforce a culture of communication and partnership among employees.",
+      "url": "https://www.gta.gov.qa/en/media-center/news/the-general-tax-authority-organizes-a-padel-tournament-to-strengthen-partne",
+      "source": {
+        "id": "qatar-gta",
+        "name": "Qatar GTA",
+        "type": "official"
+      },
+      "region": "middle-east",
+      "country": "QA",
+      "countryName": "Qatar",
+      "categories": [
+        "partnership",
+        "compliance"
+      ],
+      "publishedAt": "2026-01-28T10:28:41.086167",
+      "crawledAt": "2026-01-28T10:28:41.086248"
     },
     {
       "id": "edicom-6e4aee04",
@@ -294,8 +377,260 @@
         "regulation",
         "compliance"
       ],
-      "publishedAt": "2026-01-28T06:30:31.285060",
-      "crawledAt": "2026-01-28T06:30:31.285064"
+      "publishedAt": "2026-01-28T10:28:40.982000",
+      "crawledAt": "2026-01-28T10:28:40.982005"
+    },
+    {
+      "id": "pagero-atlas-2026-01-28-e02a5710",
+      "title": "Regulatory updates - Bahrain",
+      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. The tax authority from the Kingdom of Bahrain, the National Bureau for Revenue, has released RFP (“Request for Proposal”) titled “E-invoicing central platform and maintenance”.",
+      "url": "https://www.pagero.com/compliance/regulatory-updates/bahrain",
+      "source": {
+        "id": "pagero-atlas",
+        "name": "Pagero Regulatory Atlas",
+        "type": "vendor"
+      },
+      "region": "middle-east",
+      "country": "BH",
+      "countryName": "Bahrain",
+      "categories": [
+        "compliance",
+        "regulation"
+      ],
+      "publishedAt": "2026-01-28T10:28:40.933344",
+      "crawledAt": "2026-01-28T10:28:40.933349"
+    },
+    {
+      "id": "pagero-atlas-2026-01-28-8089a826",
+      "title": "Regulatory updates - Egypt",
+      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. The Egyptian Tax Authority (ETA) announced that additional taxpayers will be required to issue electronic receipts in business-to-consumer (B2C) transactions, starting September 15, 2025",
+      "url": "https://www.pagero.com/compliance/regulatory-updates/egypt",
+      "source": {
+        "id": "pagero-atlas",
+        "name": "Pagero Regulatory Atlas",
+        "type": "vendor"
+      },
+      "region": "middle-east",
+      "country": "EG",
+      "countryName": "Egypt",
+      "categories": [
+        "compliance",
+        "regulation"
+      ],
+      "publishedAt": "2026-01-28T10:28:40.493173",
+      "crawledAt": "2026-01-28T10:28:40.493183"
+    },
+    {
+      "id": "vertex-2026-01-28-9fdc1b45",
+      "title": "Assess Your Business's Tax Compliance",
+      "summary": "Assess Your Business's Tax Compliance",
+      "url": "https://www.vertexinc.com/vertex-tax-compliance-risk-assessment",
+      "source": {
+        "id": "vertex",
+        "name": "Vertex",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "compliance"
+      ],
+      "publishedAt": "2026-01-28T10:28:40.357603",
+      "crawledAt": "2026-01-28T10:28:40.357665"
+    },
+    {
+      "id": "vertex-2026-01-28-9b77e131",
+      "title": "Meet e-invoicing mandates.",
+      "summary": "Meet e-invoicing mandates.",
+      "url": "https://www.vertexinc.com/solutions/products/vertex-e-invoicing",
+      "source": {
+        "id": "vertex",
+        "name": "Vertex",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "mandate"
+      ],
+      "publishedAt": "2026-01-28T10:28:40.357068",
+      "crawledAt": "2026-01-28T10:28:40.357117"
+    },
+    {
+      "id": "vertex-2026-01-28-efd426cd",
+      "title": "Gartner Research: Develop a Global E-Invoicing Compliance Strategy",
+      "summary": "Gartner Research: Develop a Global E-Invoicing Compliance Strategy",
+      "url": "https://www.vertexinc.com/resources/resource-library/gartner-global-e-invoicing-strategy-report",
+      "source": {
+        "id": "vertex",
+        "name": "Vertex",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "compliance"
+      ],
+      "publishedAt": "2026-01-28T10:28:40.356768",
+      "crawledAt": "2026-01-28T10:28:40.356954"
+    },
+    {
+      "id": "pagero-atlas-2026-01-28-bee02bff",
+      "title": "Regulatory updates - United Arab Emirates",
+      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. The Ministry of Finance and Federal Tax Authority (FTA) have published amendments and new guidelines in reference to the Value Added Tax Law. Changes encompass reverse charge invoicing, ",
+      "url": "https://www.pagero.com/compliance/regulatory-updates/united-arab-emirates",
+      "source": {
+        "id": "pagero-atlas",
+        "name": "Pagero Regulatory Atlas",
+        "type": "vendor"
+      },
+      "region": "middle-east",
+      "country": "AE",
+      "countryName": "UAE",
+      "categories": [
+        "compliance",
+        "regulation"
+      ],
+      "publishedAt": "2026-01-28T10:28:40.051268",
+      "crawledAt": "2026-01-28T10:28:40.051276"
+    },
+    {
+      "id": "pagero-atlas-2026-01-28-a2fdd17c",
+      "title": "Regulatory updates - Saudi Arabia",
+      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. ZATCA announced an extension of the exemption of fines initiative till end of June 2026",
+      "url": "https://www.pagero.com/compliance/regulatory-updates/saudi-arabia",
+      "source": {
+        "id": "pagero-atlas",
+        "name": "Pagero Regulatory Atlas",
+        "type": "vendor"
+      },
+      "region": "middle-east",
+      "country": "SA",
+      "countryName": "Saudi Arabia",
+      "categories": [
+        "compliance",
+        "regulation",
+        "deadline"
+      ],
+      "publishedAt": "2026-01-28T10:27:41.376767",
+      "crawledAt": "2026-01-28T10:27:41.376774"
+    },
+    {
+      "id": "oman-ota-2026-01-28-f766a06a",
+      "title": "08-01-2026 Tax Authority Signs Agreement with Nortal to Develop Tax Management System",
+      "summary": "08-01-2026 Tax Authority Signs Agreement with Nortal to Develop Tax Management System",
+      "url": "https://www.taxoman.gov.om/portal/web/taxportal/-/tax-authority-signs-agreement-with-nortal-to-develop-tax-management-system",
+      "source": {
+        "id": "oman-ota",
+        "name": "Oman Tax Authority",
+        "type": "official"
+      },
+      "region": "middle-east",
+      "country": "OM",
+      "countryName": "Oman",
+      "categories": [
+        "update"
+      ],
+      "publishedAt": "2026-01-28T10:25:42.195204",
+      "crawledAt": "2026-01-28T10:25:42.195220"
+    },
+    {
+      "id": "oman-ota-2026-01-28-f2830fb6",
+      "title": "The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance",
+      "summary": "The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance",
+      "url": "https://tms.taxoman.gov.om/portal/web/taxportal/news",
+      "source": {
+        "id": "oman-ota",
+        "name": "Oman Tax Authority",
+        "type": "official"
+      },
+      "region": "middle-east",
+      "country": "OM",
+      "countryName": "Oman",
+      "categories": [
+        "compliance"
+      ],
+      "publishedAt": "2026-01-28T10:25:42.191174",
+      "crawledAt": "2026-01-28T10:25:42.191194"
+    },
+    {
+      "id": "oman-ota-2026-01-28-85bbbf49",
+      "title": "13-01-2026 The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance 13-01-2026 The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance",
+      "summary": "13-01-2026 The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance 13-01-2026 The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance",
+      "url": "https://www.taxoman.gov.om/portal/web/taxportal/-/the-tax-authority-organizes-awareness-workshop-for-social-media-influencers-on-tax-compliance",
+      "source": {
+        "id": "oman-ota",
+        "name": "Oman Tax Authority",
+        "type": "official"
+      },
+      "region": "middle-east",
+      "country": "OM",
+      "countryName": "Oman",
+      "categories": [
+        "compliance"
+      ],
+      "publishedAt": "2026-01-28T10:25:42.191005",
+      "crawledAt": "2026-01-28T10:25:42.191065"
+    },
+    {
+      "id": "uae-fta-2026-01-28-1c4dd9f1",
+      "title": "Final deadline for filing VAT returns New Wednesday, January 28, 2026 Announcements",
+      "summary": "Final deadline for filing VAT returns New Wednesday, January 28, 2026 Announcements",
+      "url": "https://tax.gov.ae/en/announcements.aspx",
+      "source": {
+        "id": "uae-fta",
+        "name": "UAE FTA",
+        "type": "official"
+      },
+      "region": "middle-east",
+      "country": "AE",
+      "countryName": "UAE",
+      "categories": [
+        "deadline"
+      ],
+      "publishedAt": "2026-01-28T10:25:41.339237",
+      "crawledAt": "2026-01-28T10:25:41.339305"
+    },
+    {
+      "id": "vatupdate-2026-01-28-a9e24ed3",
+      "title": "Spain Implements Stricter VAT Reporting for Hydrocarbons, New SII Requirements Effective February 2026",
+      "summary": "Spain Implements Stricter VAT Reporting for Hydrocarbons, New SII Requirements Effective February 2026",
+      "url": "https://www.vatupdate.com/2026/01/28/spain-implements-stricter-vat-reporting-for-hydrocarbons-new-sii-requirements-effective-february-2026/",
+      "source": {
+        "id": "vatupdate",
+        "name": "VATupdate",
+        "type": "aggregator"
+      },
+      "region": "europe",
+      "country": "ES",
+      "countryName": "Spain",
+      "categories": [
+        "update"
+      ],
+      "publishedAt": "2026-01-28T10:25:41.075701",
+      "crawledAt": "2026-01-28T10:25:41.075810"
+    },
+    {
+      "id": "vatupdate-2026-01-28-1e7662b1",
+      "title": "E-Invoicing & E-Reporting developments in the news in week 4/2026",
+      "summary": "Podcast on Spotify Follow the latest updates on E-Invoicing and Real Time Reporting on www.vatupdate.com and the LinkedIn pages on E-Invoicing/Real Time Reporting and ViDA. HIGHLIGHTS OF WEEKS 4/2026 NEW COLLECTION...",
+      "url": "https://www.vatupdate.com/2026/01/26/e-invoicing-e-reporting-developments-in-the-news-in-week-4-2026/",
+      "source": {
+        "id": "vatupdate",
+        "name": "VATupdate",
+        "type": "aggregator"
+      },
+      "region": "europe",
+      "country": "EU",
+      "countryName": "European Union",
+      "categories": [
+        "update"
+      ],
+      "publishedAt": "2026-01-28T10:25:41.072738",
+      "crawledAt": "2026-01-28T10:25:41.072866"
     },
     {
       "id": "pagero-atlas-2026-01-28-e3025ef9",
@@ -318,45 +653,6 @@
       "crawledAt": "2026-01-28T06:30:30.589009"
     },
     {
-      "id": "pagero-atlas-2026-01-28-8089a826",
-      "title": "Egypt E-Invoicing Compliance Update",
-      "summary": "E-invoicing regulatory updates and compliance requirements for Egypt",
-      "url": "https://www.pagero.com/compliance/regulatory-updates/egypt",
-      "source": {
-        "id": "pagero-atlas",
-        "name": "Pagero Regulatory Atlas",
-        "type": "vendor"
-      },
-      "region": "middle-east",
-      "country": "EG",
-      "countryName": "Egypt",
-      "categories": [
-        "compliance",
-        "regulation"
-      ],
-      "publishedAt": "2026-01-28T06:29:30.723021",
-      "crawledAt": "2026-01-28T06:29:30.723029"
-    },
-    {
-      "id": "vertex-2026-01-28-9fdc1b45",
-      "title": "Assess Your Business's Tax Compliance",
-      "summary": "Assess Your Business's Tax Compliance",
-      "url": "https://www.vertexinc.com/vertex-tax-compliance-risk-assessment",
-      "source": {
-        "id": "vertex",
-        "name": "Vertex",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "compliance"
-      ],
-      "publishedAt": "2026-01-28T06:29:30.383182",
-      "crawledAt": "2026-01-28T06:29:30.383327"
-    },
-    {
       "id": "vertex-2026-01-28-f79743a9",
       "title": "Simplify & automate your global tax compliance complexities.",
       "summary": "Simplify & automate your global tax compliance complexities.",
@@ -376,167 +672,6 @@
       "crawledAt": "2026-01-28T06:29:30.382862"
     },
     {
-      "id": "vertex-2026-01-28-9b77e131",
-      "title": "Meet e-invoicing mandates.",
-      "summary": "Meet e-invoicing mandates.",
-      "url": "https://www.vertexinc.com/solutions/products/vertex-e-invoicing",
-      "source": {
-        "id": "vertex",
-        "name": "Vertex",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "mandate"
-      ],
-      "publishedAt": "2026-01-28T06:29:30.381647",
-      "crawledAt": "2026-01-28T06:29:30.381786"
-    },
-    {
-      "id": "vertex-2026-01-28-efd426cd",
-      "title": "Gartner Research: Develop a Global E-Invoicing Compliance Strategy",
-      "summary": "Gartner Research: Develop a Global E-Invoicing Compliance Strategy",
-      "url": "https://www.vertexinc.com/resources/resource-library/gartner-global-e-invoicing-strategy-report",
-      "source": {
-        "id": "vertex",
-        "name": "Vertex",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "compliance"
-      ],
-      "publishedAt": "2026-01-28T06:29:30.380964",
-      "crawledAt": "2026-01-28T06:29:30.381304"
-    },
-    {
-      "id": "pagero-atlas-2026-01-28-a2fdd17c",
-      "title": "Saudi Arabia E-Invoicing Compliance Update",
-      "summary": "E-invoicing regulatory updates and compliance requirements for Saudi Arabia",
-      "url": "https://www.pagero.com/compliance/regulatory-updates/saudi-arabia",
-      "source": {
-        "id": "pagero-atlas",
-        "name": "Pagero Regulatory Atlas",
-        "type": "vendor"
-      },
-      "region": "middle-east",
-      "country": "SA",
-      "countryName": "Saudi Arabia",
-      "categories": [
-        "compliance",
-        "regulation"
-      ],
-      "publishedAt": "2026-01-28T06:28:31.407288",
-      "crawledAt": "2026-01-28T06:28:31.407295"
-    },
-    {
-      "id": "pagero-atlas-2026-01-27-4533a48d",
-      "title": "Regulatory updates - Greece",
-      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. The Independent Authority for Public Revenue (AADE) has announced a five-month postponement for the mandatory implementation of Phase B.",
-      "url": "https://www.pagero.com/compliance/regulatory-updates/greece",
-      "source": {
-        "id": "pagero-atlas",
-        "name": "Pagero Regulatory Atlas",
-        "type": "vendor"
-      },
-      "region": "europe",
-      "country": "GR",
-      "countryName": "Greece",
-      "categories": [
-        "compliance",
-        "regulation",
-        "deadline"
-      ],
-      "publishedAt": "2026-01-27T15:43:31.509500",
-      "crawledAt": "2026-01-27T15:43:31.509506"
-    },
-    {
-      "id": "pagero-atlas-2026-01-27-c561c4e3",
-      "title": "Regulatory updates - Poland",
-      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. In preparation for the KSeF 2.0 system implementation, the Polish Tax Authority has planned a technical maintenance break from January 26, 2026, to January 31, 2026.",
-      "url": "https://www.pagero.com/compliance/regulatory-updates/poland",
-      "source": {
-        "id": "pagero-atlas",
-        "name": "Pagero Regulatory Atlas",
-        "type": "vendor"
-      },
-      "region": "europe",
-      "country": "PL",
-      "countryName": "Poland",
-      "categories": [
-        "compliance",
-        "regulation",
-        "deadline"
-      ],
-      "publishedAt": "2026-01-27T15:43:29.972499",
-      "crawledAt": "2026-01-27T15:43:29.972505"
-    },
-    {
-      "id": "pagero-atlas-2026-01-27-a83059de",
-      "title": "Regulatory updates - Italy",
-      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. From January 1, 2026, Italy has strengthened VAT enforcement for omitted annual VAT returns by enabling automated calculations using data already transmitted through the e-invoicing and ",
-      "url": "https://www.pagero.com/compliance/regulatory-updates/italy",
-      "source": {
-        "id": "pagero-atlas",
-        "name": "Pagero Regulatory Atlas",
-        "type": "vendor"
-      },
-      "region": "europe",
-      "country": "IT",
-      "countryName": "Italy",
-      "categories": [
-        "compliance",
-        "regulation",
-        "deadline"
-      ],
-      "publishedAt": "2026-01-27T15:43:28.914483",
-      "crawledAt": "2026-01-27T15:43:28.914490"
-    },
-    {
-      "id": "pagero-atlas-2026-01-27-e02a5710",
-      "title": "Regulatory updates - Bahrain",
-      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. The tax authority from the Kingdom of Bahrain, the National Bureau for Revenue, has released RFP (“Request for Proposal”) titled “E-invoicing central platform and maintenance”.",
-      "url": "https://www.pagero.com/compliance/regulatory-updates/bahrain",
-      "source": {
-        "id": "pagero-atlas",
-        "name": "Pagero Regulatory Atlas",
-        "type": "vendor"
-      },
-      "region": "middle-east",
-      "country": "BH",
-      "countryName": "Bahrain",
-      "categories": [
-        "compliance",
-        "regulation"
-      ],
-      "publishedAt": "2026-01-27T15:41:28.514560",
-      "crawledAt": "2026-01-27T15:41:28.514571"
-    },
-    {
-      "id": "pagero-atlas-2026-01-27-bee02bff",
-      "title": "Regulatory updates - United Arab Emirates",
-      "summary": "Get the latest news and updates on e-invoicing, e-ordering, e-archiving and indirect tax regulatory requirements. The Ministry of Finance and Federal Tax Authority (FTA) have published amendments and new guidelines in reference to the Value Added Tax Law. Changes encompass reverse charge invoicing, ",
-      "url": "https://www.pagero.com/compliance/regulatory-updates/united-arab-emirates",
-      "source": {
-        "id": "pagero-atlas",
-        "name": "Pagero Regulatory Atlas",
-        "type": "vendor"
-      },
-      "region": "middle-east",
-      "country": "AE",
-      "countryName": "UAE",
-      "categories": [
-        "compliance",
-        "regulation"
-      ],
-      "publishedAt": "2026-01-27T15:41:27.573090",
-      "crawledAt": "2026-01-27T15:41:27.573095"
-    },
-    {
       "id": "vatupdate-2026-01-27-41acb181",
       "title": "E-Invoicing Mandates: How Belgium, Saudi Arabia, and Poland Are Easing the Transition",
       "summary": "E-Invoicing Mandates: How Belgium, Saudi Arabia, and Poland Are Easing the Transition",
@@ -554,25 +689,6 @@
       ],
       "publishedAt": "2026-01-27T15:40:29.597247",
       "crawledAt": "2026-01-27T15:40:29.597431"
-    },
-    {
-      "id": "vatupdate-2026-01-27-1e7662b1",
-      "title": "E-Invoicing & E-Reporting developments in the news in week 4/2026",
-      "summary": "Podcast on Spotify Follow the latest updates on E-Invoicing and Real Time Reporting on www.vatupdate.com and the LinkedIn pages on E-Invoicing/Real Time Reporting and ViDA. HIGHLIGHTS OF WEEKS 4/2026 NEW COLLECTION...",
-      "url": "https://www.vatupdate.com/2026/01/26/e-invoicing-e-reporting-developments-in-the-news-in-week-4-2026/",
-      "source": {
-        "id": "vatupdate",
-        "name": "VATupdate",
-        "type": "aggregator"
-      },
-      "region": "europe",
-      "country": "EU",
-      "countryName": "European Union",
-      "categories": [
-        "update"
-      ],
-      "publishedAt": "2026-01-27T15:40:29.592513",
-      "crawledAt": "2026-01-27T15:40:29.592717"
     },
     {
       "id": "edicom-ab7f9a58",
