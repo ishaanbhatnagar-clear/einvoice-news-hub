@@ -95,7 +95,8 @@ class UAEFTACrawler(BaseCrawler):
                     url = ""
                     if link:
                         href = link.get('href', '')
-                        if href:
+                        # Skip javascript: links and other invalid hrefs
+                        if href and not href.startswith(('javascript:', '#', 'mailto:')):
                             url = href if href.startswith('http') else f"{self.base_url}{href}"
 
                     if not url:

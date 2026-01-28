@@ -9,6 +9,7 @@ from typing import List, Dict, Optional
 from datetime import datetime
 
 import requests
+from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from ratelimit import limits, sleep_and_retry
 
@@ -156,12 +157,45 @@ class BaseCrawler(ABC):
             'crawledAt': datetime.utcnow().isoformat()
         }
 
+    def is_valid_url(self, url: str) -> bool:
+        """
+        Validate that a URL is properly formed and usable.
+        Rejects javascript:, mailto:, tel:, and malformed URLs.
+        """
+        if not url:
+            return False
+
+        # Check for invalid schemes
+        invalid_prefixes = ('javascript:', 'mailto:', 'tel:', '#', 'void(')
+        if any(url.lower().startswith(prefix) or prefix in url.lower() for prefix in invalid_prefixes):
+            return False
+
+        # Parse and validate URL structure
+        try:
+            parsed = urlparse(url)
+            # Must have a valid scheme and netloc
+            if parsed.scheme not in ('http', 'https'):
+                return False
+            if not parsed.netloc or '.' not in parsed.netloc:
+                return False
+            return True
+        except Exception:
+            return False
+
     def safe_crawl(self) -> List[Dict]:
-        """Wrapper around crawl with error handling"""
+        """Wrapper around crawl with error handling and URL validation"""
         try:
             articles = self.crawl()
-            logger.info(f"{self.source_name}: Found {len(articles)} articles")
-            return articles
+            # Filter out articles with invalid URLs
+            valid_articles = []
+            for article in articles:
+                if self.is_valid_url(article.get('url', '')):
+                    valid_articles.append(article)
+                else:
+                    logger.warning(f"{self.source_name}: Skipping article with invalid URL: {article.get('url', 'N/A')}")
+
+            logger.info(f"{self.source_name}: Found {len(valid_articles)} valid articles (filtered {len(articles) - len(valid_articles)} invalid)")
+            return valid_articles
         except Exception as e:
             logger.error(f"{self.source_name}: Crawl failed - {e}")
             return []
