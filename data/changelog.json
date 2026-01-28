@@ -13,6 +13,28 @@
         "EDICOM": 2,
         "Vertex": 4
       }
+    },
+    {
+      "date": "2026-01-28T06:31:34Z",
+      "status": "success",
+      "articlesTotal": 44,
+      "articlesNew": 0,
+      "sources": {
+        "Avalara": 1,
+        "Comarch": 13,
+        "Deloitte": 1,
+        "EDICOM": 5,
+        "EY": 2,
+        "KPMG": 1,
+        "Pagero": 1,
+        "Pagero Regulatory Atlas": 8,
+        "PwC": 1,
+        "Sovos": 1,
+        "UAE FTA": 2,
+        "VATupdate": 2,
+        "Vertex": 5,
+        "ZATCA": 1
+      }
     }
   ]
 }
