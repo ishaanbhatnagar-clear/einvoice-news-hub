@@ -249,6 +249,46 @@
       "region": "middle-east",
       "country": "EG",
       "reliability": "medium"
+    },
+    {
+      "id": "gulf-news",
+      "name": "Gulf News",
+      "type": "news",
+      "url": "https://gulfnews.com",
+      "newsUrl": "https://gulfnews.com/business",
+      "region": "middle-east",
+      "country": "AE",
+      "reliability": "high"
+    },
+    {
+      "id": "arabian-business",
+      "name": "Arabian Business",
+      "type": "news",
+      "url": "https://www.arabianbusiness.com",
+      "newsUrl": "https://www.arabianbusiness.com/industries/banking-finance",
+      "region": "middle-east",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "zawya",
+      "name": "Zawya",
+      "type": "news",
+      "url": "https://www.zawya.com",
+      "newsUrl": "https://www.zawya.com/mena/en/economy",
+      "region": "middle-east",
+      "country": null,
+      "reliability": "high"
+    },
+    {
+      "id": "khaleej-times",
+      "name": "Khaleej Times",
+      "type": "news",
+      "url": "https://www.khaleejtimes.com",
+      "newsUrl": "https://www.khaleejtimes.com/business",
+      "region": "middle-east",
+      "country": "AE",
+      "reliability": "high"
     }
   ],
   "sourceTypes": [

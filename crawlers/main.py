@@ -33,6 +33,10 @@ from sources import (
     JordanISTDCrawler,
     BahrainNBRCrawler,
     QatarGTACrawler,
+    GulfNewsCrawler,
+    ArabianBusinessCrawler,
+    ZawyaCrawler,
+    KhaleejTimesCrawler,
 )
 from utils import merge_with_existing, deduplicate_articles
 
@@ -64,6 +68,12 @@ CRAWLERS = [
 
     # Advisory (Big 4)
     EYCrawler,
+
+    # Middle East News Sources
+    GulfNewsCrawler,         # UAE/GCC
+    ArabianBusinessCrawler,  # MENA
+    ZawyaCrawler,            # MENA (Reuters)
+    KhaleejTimesCrawler,     # UAE
 
     # Vendors with Compliance Content
     PageroAtlasCrawler,

@@ -20,6 +20,10 @@ from sources.oman_ota import OmanOTACrawler
 from sources.jordan_istd import JordanISTDCrawler
 from sources.bahrain_nbr import BahrainNBRCrawler
 from sources.qatar_gta import QatarGTACrawler
+from sources.gulf_news import GulfNewsCrawler
+from sources.arabian_business import ArabianBusinessCrawler
+from sources.zawya import ZawyaCrawler
+from sources.khaleej_times import KhaleejTimesCrawler
 
 __all__ = [
     'BaseCrawler',
@@ -40,4 +44,8 @@ __all__ = [
     'JordanISTDCrawler',
     'BahrainNBRCrawler',
     'QatarGTACrawler',
+    'GulfNewsCrawler',
+    'ArabianBusinessCrawler',
+    'ZawyaCrawler',
+    'KhaleejTimesCrawler',
 ]
