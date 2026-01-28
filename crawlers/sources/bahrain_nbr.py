@@ -46,11 +46,9 @@ class BahrainNBRCrawler(BaseCrawler):
         articles = []
 
         urls_to_crawl = [
-            f"{self.base_url}/en/news",
-            f"{self.base_url}/en/announcements",
-            f"{self.base_url}/en/media",
-            f"{self.base_url}/en/press-releases",
-            f"{self.base_url}/ar/news",
+            f"{self.base_url}/announcements",  # Main announcements page
+            f"{self.base_url}/media",          # Media/documents section
+            f"{self.base_url}/",               # Homepage for news
         ]
 
         for page_url in urls_to_crawl:

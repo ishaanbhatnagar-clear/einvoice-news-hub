@@ -46,15 +46,12 @@ class JordanISTDCrawler(BaseCrawler):
         """Crawl Jordan ISTD news and announcements"""
         articles = []
 
-        # ISTD URLs - both English and Arabic
+        # ISTD URLs - Arabic site structure
         urls_to_crawl = [
-            f"{self.base_url}/en/NewsPage",
-            f"{self.base_url}/en/news",
-            f"{self.base_url}/ar/NewsPage",
-            f"{self.base_url}/English/Pages/News.aspx",
-            f"{self.base_url}/Arabic/Pages/News.aspx",
-            "https://jofotara.gov.jo/en/news",
-            "https://jofotara.gov.jo/ar/news",
+            f"{self.base_url}/AR/Modules/News",           # Main news module
+            f"{self.base_url}/AR/Pages/_الاعلانات",        # Announcements
+            f"{self.base_url}/AR/List/النشرات_الضريبية",  # Tax bulletins
+            f"{self.base_url}/",                           # Homepage
         ]
 
         for page_url in urls_to_crawl:
