@@ -251,7 +251,10 @@
                                     <span class="text-lg" x-text="getCountryFlag(article.country)"></span>
                                     <span class="text-sm text-gray-400" x-text="article.countryName"></span>
                                 </div>
-                                <span class="text-xs text-gray-600 mono" x-text="getRelativeTime(article.publishedAt)"></span>
+                                <div class="text-right">
+                                    <div class="text-xs text-gray-400 mono" x-text="formatShortDate(article.publishedAt)"></div>
+                                    <div class="text-xs text-gray-600 mono" x-text="'Fetched ' + getRelativeTime(article.crawledAt)"></div>
+                                </div>
                             </div>
                             <h3 class="text-white font-medium line-clamp-2 mb-2 group-hover:text-accent-cyan transition-colors" x-text="article.title"></h3>
                             <p class="text-sm text-gray-500 line-clamp-3 flex-1" x-text="article.summary"></p>
@@ -284,7 +287,10 @@
                                     <span class="text-lg" x-text="getCountryFlag(article.country)"></span>
                                     <span class="text-sm text-gray-400" x-text="article.countryName || 'Global'"></span>
                                 </div>
-                                <span class="text-xs text-gray-600 mono" x-text="getRelativeTime(article.publishedAt)"></span>
+                                <div class="text-right">
+                                    <div class="text-xs text-gray-400 mono" x-text="formatShortDate(article.publishedAt)"></div>
+                                    <div class="text-xs text-gray-600 mono" x-text="'Fetched ' + getRelativeTime(article.crawledAt)"></div>
+                                </div>
                             </div>
                             <h3 class="text-white font-medium line-clamp-2 mb-2 group-hover:text-accent-cyan transition-colors" x-text="article.title"></h3>
                             <p class="text-sm text-gray-500 line-clamp-3 flex-1" x-text="article.summary"></p>
@@ -320,7 +326,10 @@
                                     <span class="w-6 h-6 rounded bg-purple-500/20 flex items-center justify-center text-xs font-medium text-purple-400" x-text="article.source.name.charAt(0)"></span>
                                     <span class="text-sm text-purple-400" x-text="article.source.name"></span>
                                 </div>
-                                <span class="text-xs text-gray-600 mono" x-text="getRelativeTime(article.publishedAt)"></span>
+                                <div class="text-right">
+                                    <div class="text-xs text-gray-400 mono" x-text="formatShortDate(article.publishedAt)"></div>
+                                    <div class="text-xs text-gray-600 mono" x-text="'Fetched ' + getRelativeTime(article.crawledAt)"></div>
+                                </div>
                             </div>
                             <h3 class="text-white font-medium line-clamp-2 mb-2 group-hover:text-accent-cyan transition-colors" x-text="article.title"></h3>
                             <p class="text-sm text-gray-500 line-clamp-3 flex-1" x-text="article.summary"></p>

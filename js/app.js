@@ -232,6 +232,19 @@ function newsApp() {
         },
 
         /**
+         * Format date as short string (e.g., "Jan 27, 2026")
+         */
+        formatShortDate(dateStr) {
+            if (!dateStr) return 'Unknown';
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric'
+            });
+        },
+
+        /**
          * Get relative time string
          */
         getRelativeTime(dateStr) {
