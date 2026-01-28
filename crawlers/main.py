@@ -29,6 +29,10 @@ from sources import (
     PageroAtlasCrawler,
     ComarchCrawler,
     EgyptETACrawler,
+    OmanOTACrawler,
+    JordanISTDCrawler,
+    BahrainNBRCrawler,
+    QatarGTACrawler,
 )
 from utils import merge_with_existing, deduplicate_articles
 
@@ -49,10 +53,14 @@ CRAWLERS = [
     # News Aggregators (HIGH VALUE)
     VATUpdateCrawler,
 
-    # Official Government Sources
-    ZATCACrawler,
-    UAEFTACrawler,
-    EgyptETACrawler,
+    # Official Government Sources - Middle East
+    ZATCACrawler,        # Saudi Arabia
+    UAEFTACrawler,       # UAE
+    EgyptETACrawler,     # Egypt
+    OmanOTACrawler,      # Oman
+    JordanISTDCrawler,   # Jordan
+    BahrainNBRCrawler,   # Bahrain
+    QatarGTACrawler,     # Qatar
 
     # Advisory (Big 4)
     EYCrawler,

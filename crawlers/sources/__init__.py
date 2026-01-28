@@ -16,6 +16,10 @@ from sources.uae_fta import UAEFTACrawler
 from sources.pagero_atlas import PageroAtlasCrawler
 from sources.comarch import ComarchCrawler
 from sources.egypt_eta import EgyptETACrawler
+from sources.oman_ota import OmanOTACrawler
+from sources.jordan_istd import JordanISTDCrawler
+from sources.bahrain_nbr import BahrainNBRCrawler
+from sources.qatar_gta import QatarGTACrawler
 
 __all__ = [
     'BaseCrawler',
@@ -32,4 +36,8 @@ __all__ = [
     'PageroAtlasCrawler',
     'ComarchCrawler',
     'EgyptETACrawler',
+    'OmanOTACrawler',
+    'JordanISTDCrawler',
+    'BahrainNBRCrawler',
+    'QatarGTACrawler',
 ]

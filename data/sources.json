@@ -41,6 +41,46 @@
       "reliability": "high"
     },
     {
+      "id": "oman-ota",
+      "name": "Oman Tax Authority",
+      "type": "official",
+      "url": "https://www.taxoman.gov.om",
+      "newsUrl": "https://www.taxoman.gov.om/en/news",
+      "region": "middle-east",
+      "country": "OM",
+      "reliability": "high"
+    },
+    {
+      "id": "jordan-istd",
+      "name": "Jordan ISTD",
+      "type": "official",
+      "url": "https://www.istd.gov.jo",
+      "newsUrl": "https://www.istd.gov.jo/en/NewsPage",
+      "region": "middle-east",
+      "country": "JO",
+      "reliability": "high"
+    },
+    {
+      "id": "bahrain-nbr",
+      "name": "Bahrain NBR",
+      "type": "official",
+      "url": "https://www.nbr.gov.bh",
+      "newsUrl": "https://www.nbr.gov.bh/en/news",
+      "region": "middle-east",
+      "country": "BH",
+      "reliability": "high"
+    },
+    {
+      "id": "qatar-gta",
+      "name": "Qatar GTA",
+      "type": "official",
+      "url": "https://www.gta.gov.qa",
+      "newsUrl": "https://www.gta.gov.qa/en/news",
+      "region": "middle-east",
+      "country": "QA",
+      "reliability": "high"
+    },
+    {
       "id": "ey",
       "name": "EY",
       "type": "advisory",
