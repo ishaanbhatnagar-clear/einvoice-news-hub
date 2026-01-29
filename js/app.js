@@ -8,6 +8,7 @@ function newsApp() {
         // State
         loading: true,
         refreshing: false,
+        refreshStatus: '',
         newsData: {
             lastUpdated: null,
             crawlStatus: 'unknown',
@@ -69,47 +70,138 @@ function newsApp() {
         },
 
         /**
-         * Refresh news data from server
+         * Refresh news by triggering GitHub Actions crawl
          */
         async refreshNews() {
             if (this.refreshing) return;
 
+            // Get or prompt for GitHub token
+            let token = localStorage.getItem('github-token');
+            if (!token) {
+                token = prompt(
+                    'Enter your GitHub Personal Access Token (PAT):\n\n' +
+                    'Create one at: github.com/settings/tokens\n' +
+                    'Required scope: "repo" or "workflow"\n\n' +
+                    'Token will be stored locally.'
+                );
+                if (!token) return;
+                localStorage.setItem('github-token', token);
+            }
+
             this.refreshing = true;
+            this.refreshStatus = 'Triggering crawl...';
+
+            const owner = 'ishaanbhatnagar-clear';
+            const repo = 'einvoice-news-hub';
+            const workflow = 'crawl.yml';
 
             try {
-                // Add cache-busting parameter to force fresh data
-                const timestamp = new Date().getTime();
-                const response = await fetch(`data/news.json?t=${timestamp}`);
+                // Trigger the workflow
+                const triggerResponse = await fetch(
+                    `https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflow}/dispatches`,
+                    {
+                        method: 'POST',
+                        headers: {
+                            'Authorization': `Bearer ${token}`,
+                            'Accept': 'application/vnd.github.v3+json',
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ ref: 'main' })
+                    }
+                );
 
-                if (!response.ok) {
-                    throw new Error('Failed to fetch news');
+                if (triggerResponse.status === 401 || triggerResponse.status === 403) {
+                    localStorage.removeItem('github-token');
+                    throw new Error('Invalid token. Please try again.');
                 }
 
-                const newData = await response.json();
+                if (!triggerResponse.ok) {
+                    throw new Error(`Failed to trigger workflow: ${triggerResponse.status}`);
+                }
 
-                // Check if we got new articles
-                const oldCount = this.newsData.articles.length;
-                const newCount = newData.articles.length;
+                this.refreshStatus = 'Crawl started, waiting...';
 
-                this.newsData = newData;
-                this.filterNews();
+                // Wait a moment for the run to start
+                await this.sleep(3000);
 
-                // Show notification
-                const diff = newCount - oldCount;
-                if (diff > 0) {
-                    console.log(`Refreshed: ${diff} new article(s) found`);
-                } else {
-                    console.log('Refreshed: Data is up to date');
+                // Poll for workflow completion
+                let attempts = 0;
+                const maxAttempts = 60; // 5 minutes max
+
+                while (attempts < maxAttempts) {
+                    const runsResponse = await fetch(
+                        `https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflow}/runs?per_page=1`,
+                        {
+                            headers: {
+                                'Authorization': `Bearer ${token}`,
+                                'Accept': 'application/vnd.github.v3+json'
+                            }
+                        }
+                    );
+
+                    const runsData = await runsResponse.json();
+                    const latestRun = runsData.workflow_runs?.[0];
+
+                    if (latestRun) {
+                        const status = latestRun.status;
+                        const conclusion = latestRun.conclusion;
+
+                        if (status === 'completed') {
+                            if (conclusion === 'success') {
+                                this.refreshStatus = 'Crawl complete! Loading data...';
+                                await this.sleep(2000); // Wait for GitHub Pages to update
+                                await this.reloadNewsData();
+                                this.refreshStatus = '';
+                                break;
+                            } else {
+                                throw new Error(`Crawl failed: ${conclusion}`);
+                            }
+                        } else {
+                            this.refreshStatus = `Crawling... (${status})`;
+                        }
+                    }
+
+                    attempts++;
+                    await this.sleep(5000); // Poll every 5 seconds
+                }
+
+                if (attempts >= maxAttempts) {
+                    throw new Error('Timeout waiting for crawl to complete');
                 }
 
             } catch (error) {
-                console.error('Failed to refresh news:', error);
+                console.error('Refresh failed:', error);
+                this.refreshStatus = '';
+                alert(`Refresh failed: ${error.message}`);
             } finally {
-                // Minimum 1 second delay for UX
-                setTimeout(() => {
-                    this.refreshing = false;
-                }, 1000);
+                this.refreshing = false;
             }
+        },
+
+        /**
+         * Reload news data from server
+         */
+        async reloadNewsData() {
+            const timestamp = new Date().getTime();
+            const response = await fetch(`data/news.json?t=${timestamp}`);
+            if (response.ok) {
+                const oldCount = this.newsData.articles.length;
+                this.newsData = await response.json();
+                this.filterNews();
+                const diff = this.newsData.articles.length - oldCount;
+                if (diff > 0) {
+                    alert(`Refresh complete! ${diff} new article(s) found.`);
+                } else {
+                    alert('Refresh complete! Data is up to date.');
+                }
+            }
+        },
+
+        /**
+         * Sleep helper
+         */
+        sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
         },
 
         /**
