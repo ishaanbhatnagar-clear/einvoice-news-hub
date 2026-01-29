@@ -7,6 +7,7 @@ function newsApp() {
     return {
         // State
         loading: true,
+        refreshing: false,
         newsData: {
             lastUpdated: null,
             crawlStatus: 'unknown',
@@ -64,6 +65,50 @@ function newsApp() {
                 console.error('Failed to load data:', error);
             } finally {
                 this.loading = false;
+            }
+        },
+
+        /**
+         * Refresh news data from server
+         */
+        async refreshNews() {
+            if (this.refreshing) return;
+
+            this.refreshing = true;
+
+            try {
+                // Add cache-busting parameter to force fresh data
+                const timestamp = new Date().getTime();
+                const response = await fetch(`data/news.json?t=${timestamp}`);
+
+                if (!response.ok) {
+                    throw new Error('Failed to fetch news');
+                }
+
+                const newData = await response.json();
+
+                // Check if we got new articles
+                const oldCount = this.newsData.articles.length;
+                const newCount = newData.articles.length;
+
+                this.newsData = newData;
+                this.filterNews();
+
+                // Show notification
+                const diff = newCount - oldCount;
+                if (diff > 0) {
+                    console.log(`Refreshed: ${diff} new article(s) found`);
+                } else {
+                    console.log('Refreshed: Data is up to date');
+                }
+
+            } catch (error) {
+                console.error('Failed to refresh news:', error);
+            } finally {
+                // Minimum 1 second delay for UX
+                setTimeout(() => {
+                    this.refreshing = false;
+                }, 1000);
             }
         },
 
