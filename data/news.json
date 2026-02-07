@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T06:51:51.667642Z",
+  "lastUpdated": "2026-02-07T06:42:05.009336Z",
   "crawlStatus": "success",
   "totalArticles": 51,
   "articles": [
@@ -23,7 +23,263 @@
       "crawledAt": "2026-01-27T15:22:32.815152"
     },
     {
-      "id": "pagero-atlas-2026-02-06-e3025ef9",
+      "id": "comarch-2026-02-07-bb66afc8",
+      "title": "28 Nov 2025 UK Budget 2025 Confirms Mandatory B2B E-Invoicing for 2029 The UK Budget 2025 has officially confirmed that mandatory B2B e-invoicing for VAT will commence on April 1, 2029.",
+      "summary": "The UK Budget 2025 has officially confirmed that mandatory B2B e-invoicing for VAT will commence on April 1, 2029.",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/uk-budget-2025-confirms-mandatory-b2b-e-invoicing-for-2029/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "mandate"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.574885",
+      "crawledAt": "2026-02-07T06:40:05.575062"
+    },
+    {
+      "id": "comarch-2026-02-07-c03f88e8",
+      "title": "05 Dec 2025 Oman Defines E-Invoicing Roadmap and Service Provider Accreditation Standards The Oman Tax Authority (OTA) has released comprehensive details regarding the implementation of its mandatory electronic invoicing system, known as the Fawtara initiative.",
+      "summary": "The Oman Tax Authority (OTA) has released comprehensive details regarding the implementation of its mandatory electronic invoicing system, known as the Fawtara initiative.",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/oman-defines-e-invoicing-roadmap-and-service-provider-accreditation-standards/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "mandate",
+        "product"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.573266",
+      "crawledAt": "2026-02-07T06:40:05.573469"
+    },
+    {
+      "id": "comarch-2026-02-07-fb48e88a",
+      "title": "08 Dec 2025 Hungary Launches Public Consultation on Mandatory E-Invoicing The Hungarian National Tax and Customs Administration (NAV) and the Ministry of National Economy (NGM) have released a draft concept and launched a public consultation regarding the implementation of the EU’s VAT in the Digital Age (ViDA) package.",
+      "summary": "The Hungarian National Tax and Customs Administration (NAV) and the Ministry of National Economy (NGM) have released a draft concept and launched a public consultation regarding the implementation of the EU’s VAT in the Digital Age (ViDA) package.",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/hungary-launches-public-consultation-on-mandatory-e-invoicing/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "mandate",
+        "product"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.572802",
+      "crawledAt": "2026-02-07T06:40:05.573023"
+    },
+    {
+      "id": "comarch-2026-02-07-50a99d2c",
+      "title": "15 Dec 2025 KSeF 2.0 Go-Live: Production Tokens Arrive in MCU This December As Poland accelerates toward the mandatory National System of e-Invoices (KSeF) launch, the Ministry of Finance has confirmed a critical milestone for taxpayers.",
+      "summary": "As Poland accelerates toward the mandatory National System of e-Invoices (KSeF) launch, the Ministry of Finance has confirmed a critical milestone for taxpayers.",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/ksef-20-go-live-production-tokens-arrive-in-mcu-this-december/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "europe",
+      "country": "PL",
+      "countryName": "Poland",
+      "categories": [
+        "mandate",
+        "product"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.571167",
+      "crawledAt": "2026-02-07T06:40:05.571347"
+    },
+    {
+      "id": "comarch-2026-02-07-ec24af9c",
+      "title": "05 Jan 2026 Poland Publishes the Official List of KSeF E-Invoicing Exemptions The Polish Ministry of Finance has formalized the specific scenarios where taxpayers are not required to issue structured invoices through the National e-Invoicing System (KSeF).",
+      "summary": "The Polish Ministry of Finance has formalized the specific scenarios where taxpayers are not required to issue structured invoices through the National e-Invoicing System (KSeF).",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/poland-publishes-the-official-list-of-ksef-e-invoicing-exemptions/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "europe",
+      "country": "PL",
+      "countryName": "Poland",
+      "categories": [
+        "mandate"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.570745",
+      "crawledAt": "2026-02-07T06:40:05.570925"
+    },
+    {
+      "id": "comarch-2026-02-07-b8353058",
+      "title": "08 Jan 2026 Spain Approves Postponement of the Veri*factu Implementation The Spanish government has officially approved a one-year extension for the implementation of the Veri*factu certified billing software mandate.",
+      "summary": "The Spanish government has officially approved a one-year extension for the implementation of the Veri*factu certified billing software mandate.",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/spain-approves-postponement-of-the-verifactu-implementation/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "europe",
+      "country": "ES",
+      "countryName": "Spain",
+      "categories": [
+        "mandate",
+        "compliance"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.569556",
+      "crawledAt": "2026-02-07T06:40:05.569734"
+    },
+    {
+      "id": "comarch-2026-02-07-5cbf1714",
+      "title": "08 Jan 2026 Sri Lanka Launches National E-Invoicing System to Modernize Tax Infrastructure As part of a broader initiative to reach its 2030 digital economy targets, Sri Lanka has initiated the implementation of a national electronic invoicing framework.",
+      "summary": "As part of a broader initiative to reach its 2030 digital economy targets, Sri Lanka has initiated the implementation of a national electronic invoicing framework.",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/sri-lanka-launches-national-e-invoicing-system-to-modernize-tax-infrastructure/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "regulation",
+        "product"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.569115",
+      "crawledAt": "2026-02-07T06:40:05.569299"
+    },
+    {
+      "id": "comarch-2026-02-07-822af7ef",
+      "title": "09 Jan 2026 Serbia Adopts Key Amendments to Electronic Invoicing and VAT Laws in 2026 On January 12, 2026, Serbia officially adopted significant amendments to its Law on Electronic Invoicing and the Law on VAT.",
+      "summary": "On January 12, 2026, Serbia officially adopted significant amendments to its Law on Electronic Invoicing and the Law on VAT.",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/serbia-adopts-key-amendments-to-electronic-invoicing-and-vat-laws-in-2026/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "regulation",
+        "update"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.568692",
+      "crawledAt": "2026-02-07T06:40:05.568873"
+    },
+    {
+      "id": "comarch-2026-02-07-c684920e",
+      "title": "12 Jan 2026 Latvia Formalizes E-Invoicing Channels and Reporting Procedures for 2026 A new Cabinet Regulation, reported on January 7, 2026, has officially defined the acceptable channels for structured electronic invoices and the corresponding mandatory reporting obligations to the State Revenue Service (SRS).",
+      "summary": "A new Cabinet Regulation, reported on January 7, 2026, has officially defined the acceptable channels for structured electronic invoices and the corresponding mandatory reporting obligations to the State Revenue Service (SRS).",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/latvia-formalizes-e-invoicing-channels-and-reporting-procedures-for-2026/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "mandate",
+        "regulation"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.568239",
+      "crawledAt": "2026-02-07T06:40:05.568448"
+    },
+    {
+      "id": "comarch-2026-02-07-f151748a",
+      "title": "14 Jan 2026 Malaysia Updates E-Invoice Guidelines: Key Changes for Wholesalers and Small Businesses The Inland Revenue Board of Malaysia (IRBM) released Version 4.6 of its e-Invoice Specific Guideline on January 5, 2026.",
+      "summary": "The Inland Revenue Board of Malaysia (IRBM) released Version 4.6 of its e-Invoice Specific Guideline on January 5, 2026.",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/malaysia-updates-e-invoice-guidelines-key-changes-for-wholesalers-and-small-businesses/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "asia-pacific",
+      "country": "MY",
+      "countryName": "Malaysia",
+      "categories": [
+        "product",
+        "update"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.567432",
+      "crawledAt": "2026-02-07T06:40:05.567614"
+    },
+    {
+      "id": "comarch-2026-02-07-134e9208",
+      "title": "15 Jan 2026 Oman Adopts Peppol Framework and Solidifies \"Fawtara\" Timeline for 2026 The Oman Tax Authority (OTA) was officially approved as a Peppol Authority on January 7, 2026. This milestone cements the country's commitment to the Peppol interoperability framework as the backbone of its upcoming national e-invoicing system,\"Fawtara.\"",
+      "summary": "The Oman Tax Authority (OTA) was officially approved as a Peppol Authority on January 7, 2026. This milestone cements the country's commitment to the Peppol interoperability framework as the backbone of its upcoming national e-invoicing system,\"Fawtara.\"",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/oman-adopts-peppol-framework-and-solidifies-fawtara-timeline-for-2026/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "regulation",
+        "deadline"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.566920",
+      "crawledAt": "2026-02-07T06:40:05.567120"
+    },
+    {
+      "id": "comarch-2026-02-07-86af1122",
+      "title": "16 Jan 2026 Saudi Arabia Extends Fines Exemption Initiative Through June 2026 The Zakat, Tax and Customs Authority (ZATCA) announced on January 2, 2026, that it is extending its \"Fines Exemption Initiative.\"",
+      "summary": "The Zakat, Tax and Customs Authority (ZATCA) announced on January 2, 2026, that it is extending its \"Fines Exemption Initiative.\"",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/saudi-arabia-extends-fines-exemption-initiative-through-june-2026/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "middle-east",
+      "country": "SA",
+      "countryName": "Saudi Arabia",
+      "categories": [
+        "update"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.566486",
+      "crawledAt": "2026-02-07T06:40:05.566669"
+    },
+    {
+      "id": "comarch-2026-02-07-c461da6a",
+      "title": "19 Jan 2026 Gambia Proposes Mandatory E-Invoicing in 2026 Budget to Combat VAT Fraud As reported on January 7, 2026, the government of The Gambia has formally proposed introducing mandatory electronic invoicing for Value Added Tax (VAT) in its 2026 Budget.",
+      "summary": "As reported on January 7, 2026, the government of The Gambia has formally proposed introducing mandatory electronic invoicing for Value Added Tax (VAT) in its 2026 Budget.",
+      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/gambia-proposes-mandatory-e-invoicing-in-2026-budget-to-combat-vat-fraud/",
+      "source": {
+        "id": "comarch",
+        "name": "Comarch",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "mandate"
+      ],
+      "publishedAt": "2026-02-07T06:40:05.566007",
+      "crawledAt": "2026-02-07T06:40:05.566221"
+    },
+    {
+      "id": "pagero-atlas-2026-02-07-e3025ef9",
       "title": "Jordan E-Invoicing Compliance Update",
       "summary": "E-invoicing regulatory updates and compliance requirements for Jordan",
       "url": "https://www.pagero.com/compliance/regulatory-updates/jordan",
@@ -39,8 +295,220 @@
         "compliance",
         "regulation"
       ],
-      "publishedAt": "2026-02-06T06:50:50.543700",
-      "crawledAt": "2026-02-06T06:50:50.543707"
+      "publishedAt": "2026-02-07T06:40:04.511908",
+      "crawledAt": "2026-02-07T06:40:04.511915"
+    },
+    {
+      "id": "vertex-2026-02-07-595ac8a2",
+      "title": "The 2026 E-Invoicing Wave: Lessons from 14 Country Rollouts",
+      "summary": "The 2026 E-Invoicing Wave: Lessons from 14 Country Rollouts",
+      "url": "https://www.vertexinc.com/resources/resource-library/2026-e-invoicing-wave-lessons-14-country-rollouts",
+      "source": {
+        "id": "vertex",
+        "name": "Vertex",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "update"
+      ],
+      "publishedAt": "2026-02-07T06:39:06.944133",
+      "crawledAt": "2026-02-07T06:39:06.944354"
+    },
+    {
+      "id": "vertex-2026-02-07-9fdc1b45",
+      "title": "Assess Your Business's Tax Compliance",
+      "summary": "Assess Your Business's Tax Compliance",
+      "url": "https://www.vertexinc.com/vertex-tax-compliance-risk-assessment",
+      "source": {
+        "id": "vertex",
+        "name": "Vertex",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "compliance"
+      ],
+      "publishedAt": "2026-02-07T06:39:06.942112",
+      "crawledAt": "2026-02-07T06:39:06.942239"
+    },
+    {
+      "id": "vertex-2026-02-07-9b77e131",
+      "title": "Meet e-invoicing mandates.",
+      "summary": "Meet e-invoicing mandates.",
+      "url": "https://www.vertexinc.com/solutions/products/vertex-e-invoicing",
+      "source": {
+        "id": "vertex",
+        "name": "Vertex",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "mandate"
+      ],
+      "publishedAt": "2026-02-07T06:39:06.940617",
+      "crawledAt": "2026-02-07T06:39:06.940747"
+    },
+    {
+      "id": "vertex-2026-02-07-efd426cd",
+      "title": "Gartner Research: Develop a Global E-Invoicing Compliance Strategy",
+      "summary": "Gartner Research: Develop a Global E-Invoicing Compliance Strategy",
+      "url": "https://www.vertexinc.com/resources/resource-library/gartner-global-e-invoicing-strategy-report",
+      "source": {
+        "id": "vertex",
+        "name": "Vertex",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "compliance"
+      ],
+      "publishedAt": "2026-02-07T06:39:06.940057",
+      "crawledAt": "2026-02-07T06:39:06.940271"
+    },
+    {
+      "id": "qatar-gta-2026-02-07-f59063fe",
+      "title": "Latest News",
+      "summary": "His Excellency Mr. Khalifa bin Jassim Al-Jaham Al-Kuwari, President of the General Tax Authority, headed the delegation of the State of Qatar participating in the Sixth Meeting of the Global Forum on Value Added Tax (VAT) in Paris. The forum was organized by the Organization for Economic Co-operation and Development (OECD) and held in Paris from 26 to 28 January 2026. The forum is considered a high-level international platform that brings together senior officials from tax administrations around the world to discuss the design and implementation of VAT/GST systems, exchange experiences in addressing challenges related to the digital economy, e-commerce, crypto-assets, and artificial intelligence, as well as to review best practices aimed at enhancing tax compliance and developing risk management mechanisms. The State of Qatar’s participation in this meeting reaffirms its commitment to strengthening international cooperation in the field of tax policy and exchanging expertise in a manner that contributes to enhancing the efficiency of domestic tax systems, in addition to supporting international efforts to modernize and develop tax frameworks in line with evolving economic and technological changes.",
+      "url": "https://www.gta.gov.qa/en/media-center/news/state-of-qatar-participates-in-the-sixth-meeting-of-the-global-forum-on-vat",
+      "source": {
+        "id": "qatar-gta",
+        "name": "Qatar GTA",
+        "type": "official"
+      },
+      "region": "middle-east",
+      "country": "QA",
+      "countryName": "Qatar",
+      "categories": [
+        "regulation",
+        "product"
+      ],
+      "publishedAt": "2026-02-07T06:39:05.435287",
+      "crawledAt": "2026-02-07T06:39:05.435402"
+    },
+    {
+      "id": "edicom-89b5c325",
+      "title": "electronic invoicing (e-invoicing)",
+      "summary": "",
+      "url": "https://edicomgroup.com/compliance-calendar/login",
+      "source": {
+        "id": "edicom",
+        "name": "EDICOM",
+        "type": "vendor"
+      },
+      "region": "global",
+      "country": null,
+      "countryName": "Global",
+      "categories": [
+        "update"
+      ],
+      "publishedAt": "2026-02-07T06:39:04.817037",
+      "crawledAt": "2026-02-07T06:39:04.817042"
+    },
+    {
+      "id": "pagero-atlas-2026-02-07-8089a826",
+      "title": "Egypt E-Invoicing Compliance Update",
+      "summary": "E-invoicing regulatory updates and compliance requirements for Egypt",
+      "url": "https://www.pagero.com/compliance/regulatory-updates/egypt",
+      "source": {
+        "id": "pagero-atlas",
+        "name": "Pagero Regulatory Atlas",
+        "type": "vendor"
+      },
+      "region": "middle-east",
+      "country": "EG",
+      "countryName": "Egypt",
+      "categories": [
+        "compliance",
+        "regulation"
+      ],
+      "publishedAt": "2026-02-07T06:39:04.222747",
+      "crawledAt": "2026-02-07T06:39:04.222753"
+    },
+    {
+      "id": "pagero-atlas-2026-02-07-a2fdd17c",
+      "title": "Saudi Arabia E-Invoicing Compliance Update",
+      "summary": "E-invoicing regulatory updates and compliance requirements for Saudi Arabia",
+      "url": "https://www.pagero.com/compliance/regulatory-updates/saudi-arabia",
+      "source": {
+        "id": "pagero-atlas",
+        "name": "Pagero Regulatory Atlas",
+        "type": "vendor"
+      },
+      "region": "middle-east",
+      "country": "SA",
+      "countryName": "Saudi Arabia",
+      "categories": [
+        "compliance",
+        "regulation"
+      ],
+      "publishedAt": "2026-02-07T06:38:04.941157",
+      "crawledAt": "2026-02-07T06:38:04.941165"
+    },
+    {
+      "id": "oman-ota-2026-02-07-f2830fb6",
+      "title": "The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance",
+      "summary": "The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance",
+      "url": "https://tms.taxoman.gov.om/portal/web/taxportal/news",
+      "source": {
+        "id": "oman-ota",
+        "name": "Oman Tax Authority",
+        "type": "official"
+      },
+      "region": "middle-east",
+      "country": "OM",
+      "countryName": "Oman",
+      "categories": [
+        "compliance"
+      ],
+      "publishedAt": "2026-02-07T06:36:06.656415",
+      "crawledAt": "2026-02-07T06:36:06.656443"
+    },
+    {
+      "id": "oman-ota-2026-02-07-15faab47",
+      "title": "29-01-2026 Signing an Agreement on the Elimination of Double Taxation between Oman and Austria",
+      "summary": "29-01-2026 Signing an Agreement on the Elimination of Double Taxation between Oman and Austria",
+      "url": "https://www.taxoman.gov.om/portal/web/taxportal/-/signing-an-agreement-on-the-elimination-of-double-taxation-between-oman-and-austria",
+      "source": {
+        "id": "oman-ota",
+        "name": "Oman Tax Authority",
+        "type": "official"
+      },
+      "region": "middle-east",
+      "country": "OM",
+      "countryName": "Oman",
+      "categories": [
+        "update"
+      ],
+      "publishedAt": "2026-02-07T06:36:06.655586",
+      "crawledAt": "2026-02-07T06:36:06.655648"
+    },
+    {
+      "id": "uae-fta-2026-02-07-1c4dd9f1",
+      "title": "Final deadline for filing Excise returns New Monday, February 16, 2026 Announcements",
+      "summary": "Final deadline for filing Excise returns New Monday, February 16, 2026 Announcements",
+      "url": "https://tax.gov.ae/en/announcements.aspx",
+      "source": {
+        "id": "uae-fta",
+        "name": "UAE FTA",
+        "type": "official"
+      },
+      "region": "middle-east",
+      "country": "AE",
+      "countryName": "UAE",
+      "categories": [
+        "deadline"
+      ],
+      "publishedAt": "2026-02-07T06:35:05.989920",
+      "crawledAt": "2026-02-07T06:35:05.990047"
     },
     {
       "id": "comarch-2026-02-06-85ddd147",
@@ -82,360 +550,6 @@
       "crawledAt": "2026-02-06T06:49:52.206035"
     },
     {
-      "id": "comarch-2026-02-06-bb66afc8",
-      "title": "28 Nov 2025 UK Budget 2025 Confirms Mandatory B2B E-Invoicing for 2029 The UK Budget 2025 has officially confirmed that mandatory B2B e-invoicing for VAT will commence on April 1, 2029.",
-      "summary": "The UK Budget 2025 has officially confirmed that mandatory B2B e-invoicing for VAT will commence on April 1, 2029.",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/uk-budget-2025-confirms-mandatory-b2b-e-invoicing-for-2029/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "mandate"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.205409",
-      "crawledAt": "2026-02-06T06:49:52.205588"
-    },
-    {
-      "id": "comarch-2026-02-06-c03f88e8",
-      "title": "05 Dec 2025 Oman Defines E-Invoicing Roadmap and Service Provider Accreditation Standards The Oman Tax Authority (OTA) has released comprehensive details regarding the implementation of its mandatory electronic invoicing system, known as the Fawtara initiative.",
-      "summary": "The Oman Tax Authority (OTA) has released comprehensive details regarding the implementation of its mandatory electronic invoicing system, known as the Fawtara initiative.",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/oman-defines-e-invoicing-roadmap-and-service-provider-accreditation-standards/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "mandate",
-        "product"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.203807",
-      "crawledAt": "2026-02-06T06:49:52.203995"
-    },
-    {
-      "id": "comarch-2026-02-06-fb48e88a",
-      "title": "08 Dec 2025 Hungary Launches Public Consultation on Mandatory E-Invoicing The Hungarian National Tax and Customs Administration (NAV) and the Ministry of National Economy (NGM) have released a draft concept and launched a public consultation regarding the implementation of the EU’s VAT in the Digital Age (ViDA) package.",
-      "summary": "The Hungarian National Tax and Customs Administration (NAV) and the Ministry of National Economy (NGM) have released a draft concept and launched a public consultation regarding the implementation of the EU’s VAT in the Digital Age (ViDA) package.",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/hungary-launches-public-consultation-on-mandatory-e-invoicing/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "mandate",
-        "product"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.203337",
-      "crawledAt": "2026-02-06T06:49:52.203556"
-    },
-    {
-      "id": "comarch-2026-02-06-50a99d2c",
-      "title": "15 Dec 2025 KSeF 2.0 Go-Live: Production Tokens Arrive in MCU This December As Poland accelerates toward the mandatory National System of e-Invoices (KSeF) launch, the Ministry of Finance has confirmed a critical milestone for taxpayers.",
-      "summary": "As Poland accelerates toward the mandatory National System of e-Invoices (KSeF) launch, the Ministry of Finance has confirmed a critical milestone for taxpayers.",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/ksef-20-go-live-production-tokens-arrive-in-mcu-this-december/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "europe",
-      "country": "PL",
-      "countryName": "Poland",
-      "categories": [
-        "mandate",
-        "product"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.201739",
-      "crawledAt": "2026-02-06T06:49:52.201928"
-    },
-    {
-      "id": "comarch-2026-02-06-ec24af9c",
-      "title": "05 Jan 2026 Poland Publishes the Official List of KSeF E-Invoicing Exemptions The Polish Ministry of Finance has formalized the specific scenarios where taxpayers are not required to issue structured invoices through the National e-Invoicing System (KSeF).",
-      "summary": "The Polish Ministry of Finance has formalized the specific scenarios where taxpayers are not required to issue structured invoices through the National e-Invoicing System (KSeF).",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/poland-publishes-the-official-list-of-ksef-e-invoicing-exemptions/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "europe",
-      "country": "PL",
-      "countryName": "Poland",
-      "categories": [
-        "mandate"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.201326",
-      "crawledAt": "2026-02-06T06:49:52.201504"
-    },
-    {
-      "id": "comarch-2026-02-06-b8353058",
-      "title": "08 Jan 2026 Spain Approves Postponement of the Veri*factu Implementation The Spanish government has officially approved a one-year extension for the implementation of the Veri*factu certified billing software mandate.",
-      "summary": "The Spanish government has officially approved a one-year extension for the implementation of the Veri*factu certified billing software mandate.",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/spain-approves-postponement-of-the-verifactu-implementation/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "europe",
-      "country": "ES",
-      "countryName": "Spain",
-      "categories": [
-        "mandate",
-        "compliance"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.200152",
-      "crawledAt": "2026-02-06T06:49:52.200329"
-    },
-    {
-      "id": "comarch-2026-02-06-5cbf1714",
-      "title": "08 Jan 2026 Sri Lanka Launches National E-Invoicing System to Modernize Tax Infrastructure As part of a broader initiative to reach its 2030 digital economy targets, Sri Lanka has initiated the implementation of a national electronic invoicing framework.",
-      "summary": "As part of a broader initiative to reach its 2030 digital economy targets, Sri Lanka has initiated the implementation of a national electronic invoicing framework.",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/sri-lanka-launches-national-e-invoicing-system-to-modernize-tax-infrastructure/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "regulation",
-        "product"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.199715",
-      "crawledAt": "2026-02-06T06:49:52.199915"
-    },
-    {
-      "id": "comarch-2026-02-06-822af7ef",
-      "title": "09 Jan 2026 Serbia Adopts Key Amendments to Electronic Invoicing and VAT Laws in 2026 On January 12, 2026, Serbia officially adopted significant amendments to its Law on Electronic Invoicing and the Law on VAT.",
-      "summary": "On January 12, 2026, Serbia officially adopted significant amendments to its Law on Electronic Invoicing and the Law on VAT.",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/serbia-adopts-key-amendments-to-electronic-invoicing-and-vat-laws-in-2026/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "regulation",
-        "update"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.199293",
-      "crawledAt": "2026-02-06T06:49:52.199473"
-    },
-    {
-      "id": "comarch-2026-02-06-c684920e",
-      "title": "12 Jan 2026 Latvia Formalizes E-Invoicing Channels and Reporting Procedures for 2026 A new Cabinet Regulation, reported on January 7, 2026, has officially defined the acceptable channels for structured electronic invoices and the corresponding mandatory reporting obligations to the State Revenue Service (SRS).",
-      "summary": "A new Cabinet Regulation, reported on January 7, 2026, has officially defined the acceptable channels for structured electronic invoices and the corresponding mandatory reporting obligations to the State Revenue Service (SRS).",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/latvia-formalizes-e-invoicing-channels-and-reporting-procedures-for-2026/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "mandate",
-        "regulation"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.198861",
-      "crawledAt": "2026-02-06T06:49:52.199054"
-    },
-    {
-      "id": "comarch-2026-02-06-f151748a",
-      "title": "14 Jan 2026 Malaysia Updates E-Invoice Guidelines: Key Changes for Wholesalers and Small Businesses The Inland Revenue Board of Malaysia (IRBM) released Version 4.6 of its e-Invoice Specific Guideline on January 5, 2026.",
-      "summary": "The Inland Revenue Board of Malaysia (IRBM) released Version 4.6 of its e-Invoice Specific Guideline on January 5, 2026.",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/malaysia-updates-e-invoice-guidelines-key-changes-for-wholesalers-and-small-businesses/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "asia-pacific",
-      "country": "MY",
-      "countryName": "Malaysia",
-      "categories": [
-        "product",
-        "update"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.198046",
-      "crawledAt": "2026-02-06T06:49:52.198220"
-    },
-    {
-      "id": "comarch-2026-02-06-134e9208",
-      "title": "15 Jan 2026 Oman Adopts Peppol Framework and Solidifies \"Fawtara\" Timeline for 2026 The Oman Tax Authority (OTA) was officially approved as a Peppol Authority on January 7, 2026. This milestone cements the country's commitment to the Peppol interoperability framework as the backbone of its upcoming national e-invoicing system,\"Fawtara.\"",
-      "summary": "The Oman Tax Authority (OTA) was officially approved as a Peppol Authority on January 7, 2026. This milestone cements the country's commitment to the Peppol interoperability framework as the backbone of its upcoming national e-invoicing system,\"Fawtara.\"",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/oman-adopts-peppol-framework-and-solidifies-fawtara-timeline-for-2026/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "regulation",
-        "deadline"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.197591",
-      "crawledAt": "2026-02-06T06:49:52.197802"
-    },
-    {
-      "id": "comarch-2026-02-06-86af1122",
-      "title": "16 Jan 2026 Saudi Arabia Extends Fines Exemption Initiative Through June 2026 The Zakat, Tax and Customs Authority (ZATCA) announced on January 2, 2026, that it is extending its \"Fines Exemption Initiative.\"",
-      "summary": "The Zakat, Tax and Customs Authority (ZATCA) announced on January 2, 2026, that it is extending its \"Fines Exemption Initiative.\"",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/saudi-arabia-extends-fines-exemption-initiative-through-june-2026/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "middle-east",
-      "country": "SA",
-      "countryName": "Saudi Arabia",
-      "categories": [
-        "update"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.197167",
-      "crawledAt": "2026-02-06T06:49:52.197343"
-    },
-    {
-      "id": "comarch-2026-02-06-c461da6a",
-      "title": "19 Jan 2026 Gambia Proposes Mandatory E-Invoicing in 2026 Budget to Combat VAT Fraud As reported on January 7, 2026, the government of The Gambia has formally proposed introducing mandatory electronic invoicing for Value Added Tax (VAT) in its 2026 Budget.",
-      "summary": "As reported on January 7, 2026, the government of The Gambia has formally proposed introducing mandatory electronic invoicing for Value Added Tax (VAT) in its 2026 Budget.",
-      "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/gambia-proposes-mandatory-e-invoicing-in-2026-budget-to-combat-vat-fraud/",
-      "source": {
-        "id": "comarch",
-        "name": "Comarch",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "mandate"
-      ],
-      "publishedAt": "2026-02-06T06:49:52.196585",
-      "crawledAt": "2026-02-06T06:49:52.196916"
-    },
-    {
-      "id": "edicom-89b5c325",
-      "title": "electronic invoicing (e-invoicing)",
-      "summary": "",
-      "url": "https://edicomgroup.com/compliance-calendar/login",
-      "source": {
-        "id": "edicom",
-        "name": "EDICOM",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "update"
-      ],
-      "publishedAt": "2026-02-06T06:49:51.430939",
-      "crawledAt": "2026-02-06T06:49:51.430943"
-    },
-    {
-      "id": "pagero-atlas-2026-02-06-8089a826",
-      "title": "Egypt E-Invoicing Compliance Update",
-      "summary": "E-invoicing regulatory updates and compliance requirements for Egypt",
-      "url": "https://www.pagero.com/compliance/regulatory-updates/egypt",
-      "source": {
-        "id": "pagero-atlas",
-        "name": "Pagero Regulatory Atlas",
-        "type": "vendor"
-      },
-      "region": "middle-east",
-      "country": "EG",
-      "countryName": "Egypt",
-      "categories": [
-        "compliance",
-        "regulation"
-      ],
-      "publishedAt": "2026-02-06T06:49:50.535970",
-      "crawledAt": "2026-02-06T06:49:50.535977"
-    },
-    {
-      "id": "qatar-gta-2026-02-06-f59063fe",
-      "title": "Latest News",
-      "summary": "His Excellency Mr. Khalifa bin Jassim Al-Jaham Al-Kuwari, President of the General Tax Authority, headed the delegation of the State of Qatar participating in the Sixth Meeting of the Global Forum on Value Added Tax (VAT) in Paris. The forum was organized by the Organization for Economic Co-operation and Development (OECD) and held in Paris from 26 to 28 January 2026. The forum is considered a high-level international platform that brings together senior officials from tax administrations around the world to discuss the design and implementation of VAT/GST systems, exchange experiences in addressing challenges related to the digital economy, e-commerce, crypto-assets, and artificial intelligence, as well as to review best practices aimed at enhancing tax compliance and developing risk management mechanisms. The State of Qatar’s participation in this meeting reaffirms its commitment to strengthening international cooperation in the field of tax policy and exchanging expertise in a manner that contributes to enhancing the efficiency of domestic tax systems, in addition to supporting international efforts to modernize and develop tax frameworks in line with evolving economic and technological changes.",
-      "url": "https://www.gta.gov.qa/en/media-center/news/state-of-qatar-participates-in-the-sixth-meeting-of-the-global-forum-on-vat",
-      "source": {
-        "id": "qatar-gta",
-        "name": "Qatar GTA",
-        "type": "official"
-      },
-      "region": "middle-east",
-      "country": "QA",
-      "countryName": "Qatar",
-      "categories": [
-        "regulation",
-        "product"
-      ],
-      "publishedAt": "2026-02-06T06:48:51.775979",
-      "crawledAt": "2026-02-06T06:48:51.776096"
-    },
-    {
-      "id": "pagero-atlas-2026-02-06-a2fdd17c",
-      "title": "Saudi Arabia E-Invoicing Compliance Update",
-      "summary": "E-invoicing regulatory updates and compliance requirements for Saudi Arabia",
-      "url": "https://www.pagero.com/compliance/regulatory-updates/saudi-arabia",
-      "source": {
-        "id": "pagero-atlas",
-        "name": "Pagero Regulatory Atlas",
-        "type": "vendor"
-      },
-      "region": "middle-east",
-      "country": "SA",
-      "countryName": "Saudi Arabia",
-      "categories": [
-        "compliance",
-        "regulation"
-      ],
-      "publishedAt": "2026-02-06T06:48:51.184343",
-      "crawledAt": "2026-02-06T06:48:51.184351"
-    },
-    {
-      "id": "vertex-2026-02-06-595ac8a2",
-      "title": "The 2026 E-Invoicing Wave: Lessons from 14 Country Rollouts",
-      "summary": "The 2026 E-Invoicing Wave: Lessons from 14 Country Rollouts",
-      "url": "https://www.vertexinc.com/resources/resource-library/2026-e-invoicing-wave-lessons-14-country-rollouts",
-      "source": {
-        "id": "vertex",
-        "name": "Vertex",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "update"
-      ],
-      "publishedAt": "2026-02-06T06:48:50.526571",
-      "crawledAt": "2026-02-06T06:48:50.526804"
-    },
-    {
       "id": "vertex-2026-02-06-6029d77c",
       "title": "Understanding Sales Tax Compliance for Businesses Using SAP",
       "summary": "Understanding Sales Tax Compliance for Businesses Using SAP",
@@ -453,120 +567,6 @@
       ],
       "publishedAt": "2026-02-06T06:48:50.525451",
       "crawledAt": "2026-02-06T06:48:50.525676"
-    },
-    {
-      "id": "vertex-2026-02-06-9fdc1b45",
-      "title": "Assess Your Business's Tax Compliance",
-      "summary": "Assess Your Business's Tax Compliance",
-      "url": "https://www.vertexinc.com/vertex-tax-compliance-risk-assessment",
-      "source": {
-        "id": "vertex",
-        "name": "Vertex",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "compliance"
-      ],
-      "publishedAt": "2026-02-06T06:48:50.523971",
-      "crawledAt": "2026-02-06T06:48:50.524104"
-    },
-    {
-      "id": "vertex-2026-02-06-9b77e131",
-      "title": "Meet e-invoicing mandates.",
-      "summary": "Meet e-invoicing mandates.",
-      "url": "https://www.vertexinc.com/solutions/products/vertex-e-invoicing",
-      "source": {
-        "id": "vertex",
-        "name": "Vertex",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "mandate"
-      ],
-      "publishedAt": "2026-02-06T06:48:50.522439",
-      "crawledAt": "2026-02-06T06:48:50.522570"
-    },
-    {
-      "id": "vertex-2026-02-06-efd426cd",
-      "title": "Gartner Research: Develop a Global E-Invoicing Compliance Strategy",
-      "summary": "Gartner Research: Develop a Global E-Invoicing Compliance Strategy",
-      "url": "https://www.vertexinc.com/resources/resource-library/gartner-global-e-invoicing-strategy-report",
-      "source": {
-        "id": "vertex",
-        "name": "Vertex",
-        "type": "vendor"
-      },
-      "region": "global",
-      "country": null,
-      "countryName": "Global",
-      "categories": [
-        "compliance"
-      ],
-      "publishedAt": "2026-02-06T06:48:50.521748",
-      "crawledAt": "2026-02-06T06:48:50.522108"
-    },
-    {
-      "id": "oman-ota-2026-02-06-f2830fb6",
-      "title": "The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance",
-      "summary": "The Tax Authority Organizes Awareness Workshop for Social Media Influencers on Tax Compliance",
-      "url": "https://tms.taxoman.gov.om/portal/web/taxportal/news",
-      "source": {
-        "id": "oman-ota",
-        "name": "Oman Tax Authority",
-        "type": "official"
-      },
-      "region": "middle-east",
-      "country": "OM",
-      "countryName": "Oman",
-      "categories": [
-        "compliance"
-      ],
-      "publishedAt": "2026-02-06T06:45:53.992069",
-      "crawledAt": "2026-02-06T06:45:53.992097"
-    },
-    {
-      "id": "oman-ota-2026-02-06-15faab47",
-      "title": "29-01-2026 Signing an Agreement on the Elimination of Double Taxation between Oman and Austria",
-      "summary": "29-01-2026 Signing an Agreement on the Elimination of Double Taxation between Oman and Austria",
-      "url": "https://www.taxoman.gov.om/portal/web/taxportal/-/signing-an-agreement-on-the-elimination-of-double-taxation-between-oman-and-austria",
-      "source": {
-        "id": "oman-ota",
-        "name": "Oman Tax Authority",
-        "type": "official"
-      },
-      "region": "middle-east",
-      "country": "OM",
-      "countryName": "Oman",
-      "categories": [
-        "update"
-      ],
-      "publishedAt": "2026-02-06T06:45:53.991239",
-      "crawledAt": "2026-02-06T06:45:53.991300"
-    },
-    {
-      "id": "uae-fta-2026-02-06-1c4dd9f1",
-      "title": "Final deadline for filing Excise returns New Monday, February 16, 2026 Announcements",
-      "summary": "Final deadline for filing Excise returns New Monday, February 16, 2026 Announcements",
-      "url": "https://tax.gov.ae/en/announcements.aspx",
-      "source": {
-        "id": "uae-fta",
-        "name": "UAE FTA",
-        "type": "official"
-      },
-      "region": "middle-east",
-      "country": "AE",
-      "countryName": "UAE",
-      "categories": [
-        "deadline"
-      ],
-      "publishedAt": "2026-02-06T06:44:53.552728",
-      "crawledAt": "2026-02-06T06:44:53.552861"
     },
     {
       "id": "edicom-6e4aee04",
