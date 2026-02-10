@@ -251,6 +251,24 @@
         "VATupdate": 3,
         "Vertex": 6
       }
+    },
+    {
+      "date": "2026-02-10T07:04:46Z",
+      "status": "success",
+      "articlesTotal": 52,
+      "articlesNew": 0,
+      "sources": {
+        "Arabian Business": 4,
+        "Comarch": 19,
+        "EDICOM": 5,
+        "Khaleej Times": 1,
+        "Oman Tax Authority": 4,
+        "Pagero Regulatory Atlas": 8,
+        "Qatar GTA": 1,
+        "UAE FTA": 1,
+        "VATupdate": 3,
+        "Vertex": 6
+      }
     }
   ]
 }
